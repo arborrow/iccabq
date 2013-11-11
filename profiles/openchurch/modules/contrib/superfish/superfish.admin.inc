@@ -6,33 +6,6 @@
  */
 
 /**
- * Generate the default path for the Superfish library.
- */
-function slp_default() {
-  // Ensure the Libraries API module is installed and working.
-  if (module_exists('libraries') && function_exists('libraries_get_path')) {
-    $directory = libraries_get_path('superfish');
-  }
-  // Otherwise use the default directory.
-  else {
-    $directory = 'sites/all/libraries/superfish';
-  }
-  if (file_exists($directory)) {
-    $output = $directory . "/jquery.hoverIntent.minified.js\n" .
-      $directory . "/jquery.bgiframe.min.js\n" .
-      $directory . "/superfish.js\n" .
-      $directory . "/supersubs.js\n" .
-      $directory . "/supposition.js\n" .
-      $directory . "/sftouchscreen.js\n" .
-      $directory . "/sfsmallscreen.js";
-  }
-  else {
-    $output = '';
-  }
-  return $output;
-}
-
-/**
  * Overriding system settings form.
  */
 function superfish_system_settings_form($form, $automatic_defaults = TRUE) {
@@ -72,7 +45,13 @@ function superfish_admin_settings() {
     '#type' => 'textarea',
     '#title' => t('Path to Superfish library'),
     '#description' => t('Edit only if you are sure of what you are doing.'),
-    '#default_value' => variable_get('superfish_slp', slp_default()),
+    '#default_value' => variable_get('superfish_slp',
+      libraries_get_path('superfish') . "/jquery.hoverIntent.minified.js\n" .
+      libraries_get_path('superfish') . "/jquery.bgiframe.min.js\n" .
+      libraries_get_path('superfish') . "/superfish.js\n" .
+      libraries_get_path('superfish') . "/supersubs.js\n" .
+      libraries_get_path('superfish') . "/supposition.js\n" .
+      libraries_get_path('superfish') . "/sftouchscreen.js"),
     '#rows' => 7,
   );
   return superfish_system_settings_form($form, FALSE);
@@ -83,31 +62,26 @@ function superfish_admin_settings() {
  */
 function superfish_admin_settings_validate($form, &$form_state) {
   $error = array();
+  // Trimming blank lines and such
   $sf_library = preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", trim($form_state['values']['superfish_slp']));
-  if (empty($sf_library)) {
-    form_set_error('superfish_slp', t('<strong>Path to Superfish library</strong> field cannot be empty. Please try the below list:<br />' . '<pre>' . slp_default() . '</pre>'));
+  $sf_library = explode("\n", $sf_library);
+  // Crystal clear
+  foreach ($sf_library as $s) {
+    if (!file_exists($s)) {
+      $error[] = $s;
+    }
   }
-  else {
-    // Trimming blank lines and such
-    $sf_library = explode("\n", $sf_library);
-    // Crystal clear
-    foreach ($sf_library as $s) {
-      if (!file_exists($s)) {
-        $error[] = $s;
+  if (!empty($error)) {
+    $error_message = '';
+    if (count($error) > 1) {
+      foreach ($error as $e) {
+        $error_message .= '<li>' . $e . '</li>';
       }
+      $error_message = t('Files not found') . ': <ul>' . $error_message . '</ul>';
     }
-    if (!empty($error)) {
-      $error_message = '';
-      if (count($error) > 1) {
-        foreach ($error as $e) {
-          $error_message .= '<li>' . $e . '</li>';
-        }
-        $error_message = t('Files not found') . ': <ul>' . $error_message . '</ul>';
-      }
-      else {
-        $error_message = t('File not found') . ': ' . $error[0];
-      }
-      form_set_error('superfish_slp', $error_message);
+    else {
+      $error_message = t('File not found') . ': ' . $error[0];
     }
+    form_set_error('superfish_slp', $error_message);
   }
 }

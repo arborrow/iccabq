@@ -139,62 +139,6 @@ function openchurch_defaults_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_admin_title';
-  $strongarm->value = 'Mobile Menu';
-  $export['menu_block_1_admin_title'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_depth';
-  $strongarm->value = '0';
-  $export['menu_block_1_depth'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_expanded';
-  $strongarm->value = 1;
-  $export['menu_block_1_expanded'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_follow';
-  $strongarm->value = 0;
-  $export['menu_block_1_follow'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_level';
-  $strongarm->value = '1';
-  $export['menu_block_1_level'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_parent';
-  $strongarm->value = 'main-menu:0';
-  $export['menu_block_1_parent'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_sort';
-  $strongarm->value = 0;
-  $export['menu_block_1_sort'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_1_title_link';
-  $strongarm->value = 0;
-  $export['menu_block_1_title_link'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'menu_breadcrumb_append_node_title';
   $strongarm->value = 1;
   $export['menu_breadcrumb_append_node_title'] = $strongarm;
@@ -238,18 +182,6 @@ function openchurch_defaults_strongarm() {
       'type' => 'menu',
       'title' => 'Management',
       'name' => 'management',
-    ),
-    'menu-openchurch-admin-links' => array(
-      'enabled' => 0,
-      'weight' => '0',
-      'type' => 'menu',
-      'name' => 'menu-openchurch-admin-links',
-    ),
-    'menu-openchurch-new-content' => array(
-      'enabled' => 0,
-      'weight' => '0',
-      'type' => 'menu',
-      'name' => 'menu-openchurch-new-content',
     ),
     'menu-secondary-links' => array(
       'enabled' => 0,
@@ -552,30 +484,66 @@ function openchurch_defaults_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'tinynav_active_class';
-  $strongarm->value = 'active';
-  $export['tinynav_active_class'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'tinynav_css_selector';
-  $strongarm->value = '#block-menu_block-1 ul.menu';
-  $export['tinynav_css_selector'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'tinynav_header';
-  $strongarm->value = '1';
-  $export['tinynav_header'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'tinynav_media_query';
-  $strongarm->value = 'only screen and (max-width:460px)';
-  $export['tinynav_media_query'] = $strongarm;
+  $strongarm->name = 'theme_openchurch_mm_settings';
+  $strongarm->value = array(
+    'toggle_logo' => 1,
+    'toggle_name' => 1,
+    'toggle_slogan' => 1,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_favicon' => 1,
+    'default_logo' => 1,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
+    'favicon_upload' => '',
+    'sidebar_first_width' => '3',
+    'sidebar_second_width' => '3',
+    'theme_grid' => 'grid12-960',
+    'fluid_grid_width' => 'fluid-100',
+    'responsive_enabled' => '1',
+    'responsive_columns' => '12',
+    'responsive_ie_shim' => 1,
+    'sidebar_layout' => 'sidebars-split',
+    'sidebar_enabled' => 1,
+    'sidebar_grid_width' => '960',
+    'sidebar_gutter' => '20',
+    'sidebar_mquery' => 'only screen and (min-width:461px)',
+    'theme_font' => 'none',
+    'theme_font_size' => 'font-size-12',
+    'breadcrumb_display' => 1,
+    'search_snippet' => 1,
+    'search_info_type' => 1,
+    'search_info_user' => 1,
+    'search_info_date' => 1,
+    'search_info_comment' => 1,
+    'search_info_upload' => 1,
+    'sidebar_tablet_landscape_layout' => 'sidebars-split',
+    'sidebar_tablet_landscape_enabled' => 0,
+    'sidebar_tablet_landscape_grid_width' => '',
+    'sidebar_tablet_landscape_gutter' => '',
+    'sidebar_tablet_landscape_mquery' => '',
+    'sidebar_tablet_portrait_layout' => 'sidebars-split',
+    'sidebar_tablet_portrait_enabled' => 0,
+    'sidebar_tablet_portrait_grid_width' => '',
+    'sidebar_tablet_portrait_gutter' => '',
+    'sidebar_tablet_portrait_mquery' => '',
+    'sidebar_phone_landscape_layout' => 'sidebars-drop',
+    'sidebar_phone_landscape_enabled' => 1,
+    'sidebar_phone_landscape_grid_width' => 'mobile',
+    'sidebar_phone_landscape_gutter' => '10',
+    'sidebar_phone_landscape_mquery' => 'only screen and (max-width:460px)',
+    'general_settings__active_tab' => 'edit-theme-grid-config',
+    'mix_and_match_body_bg' => 'white',
+    'mix_and_match_page_bg' => 'no-page-bg',
+    'mix_and_match_accent_color' => 'gray-accents',
+    'mix_and_match_footer_color' => 'default-footer',
+    'mix_and_match_header_color' => 'default-headers',
+    'mix_and_match_link_color' => 'default-links',
+    'mix_and_match_corners' => 'round-corners-3',
+  );
+  $export['theme_openchurch_mm_settings'] = $strongarm;
 
   return $export;
 }

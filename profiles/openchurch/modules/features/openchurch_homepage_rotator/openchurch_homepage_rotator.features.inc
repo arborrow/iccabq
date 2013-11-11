@@ -22,7 +22,10 @@ function openchurch_homepage_rotator_ctools_plugin_api() {
  * Implements hook_views_api().
  */
 function openchurch_homepage_rotator_views_api() {
-  return array("version" => "3.0");
+  list($module, $api) = func_get_args();
+  if ($module == "views" && $api == "views_default") {
+    return array("version" => "3.0");
+  }
 }
 
 /**
@@ -64,7 +67,7 @@ function openchurch_homepage_rotator_fe_nodequeue_export_fields() {
 function openchurch_homepage_rotator_image_default_styles() {
   $styles = array();
 
-  // Exported image style: oc_homepage_rotator.
+  // Exported image style: oc_homepage_rotator
   $styles['oc_homepage_rotator'] = array(
     'name' => 'oc_homepage_rotator',
     'effects' => array(

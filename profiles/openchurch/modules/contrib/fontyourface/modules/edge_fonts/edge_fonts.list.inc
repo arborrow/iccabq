@@ -8,5973 +8,3375 @@
 /**
  * Helper function - hardcodes the list of available fonts and their variants.
  *
- * Updated 13-Nov-2012.
+ * Updated 16-Oct-2012.
  */
 function edge_fonts_list() {
   return array(
     'abel' => array(
-      'name' => 'Abel',
+      'fontname' => 'Abel',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121cc',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'abril-fatface' => array(
-      'name' => 'Abril Fatface',
+      'fontname' => 'Abril Fatface',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000119b2',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000119b3',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'aclonica' => array(
-      'name' => 'Aclonica',
+      'fontname' => 'Aclonica',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'acme' => array(
-      'name' => 'Acme',
+      'fontname' => 'Acme',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121ce',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'actor' => array(
-      'name' => 'Actor',
+      'fontname' => 'Actor',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121cd',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'adamina' => array(
-      'name' => 'Adamina',
+      'fontname' => 'Adamina',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121cf',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'advent-pro' => array(
-      'name' => 'Advent Pro',
+      'fontname' => 'Advent Pro',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Thin',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121b9',
-        ),
-        'n2' => array(
-          'name' => 'Extra Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121b5',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121bb',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121b8',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121b6',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121ba',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121b7',
-        ),
+        'n1' => 'Thin',
+        'n2' => 'Extra Light',
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n5' => 'Medium',
+        'n6' => 'Semibold',
+        'n7' => 'Bold',
       ),
     ),
     'aguafina-script' => array(
-      'name' => 'Aguafina Script',
+      'fontname' => 'Aguafina Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a5',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'aladin' => array(
-      'name' => 'Aladin',
+      'fontname' => 'Aladin',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a6',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'alegreya' => array(
-      'name' => 'Alegreya',
+      'fontname' => 'Alegreya',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ac8',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ac7',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ac5',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ac6',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ac3',
-        ),
-        'i9' => array(
-          'name' => 'Black Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ac4',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
+        'n9' => 'Black',
+        'i9' => 'Black Italic',
       ),
     ),
     'alegreya-sc' => array(
-      'name' => 'Alegreya SC',
+      'fontname' => 'Alegreya SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122aa',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a9',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a8',
-        ),
-        'i7' => array(
-          'name' => 'BoldItalic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ab',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121fb',
-        ),
-        'i9' => array(
-          'name' => 'BlackItalic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a7',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'BoldItalic',
+        'n9' => 'Black',
+        'i9' => 'BlackItalic',
       ),
     ),
     'alex-brush' => array(
-      'name' => 'Alex Brush',
+      'fontname' => 'Alex Brush',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ac',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'alexa-std' => array(
-      'name' => 'Alexa Std',
+      'fontname' => 'Alexa Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131bf',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'alfa-slab-one' => array(
-      'name' => 'Alfa Slab One',
+      'fontname' => 'Alfa Slab One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ad',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'alice' => array(
-      'name' => 'Alice',
+      'fontname' => 'Alice',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ae',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'alike' => array(
-      'name' => 'Alike',
+      'fontname' => 'Alike',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122af',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'alike-angular' => array(
-      'name' => 'Alike Angular',
+      'fontname' => 'Alike Angular',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'allan' => array(
-      'name' => 'Allan',
+      'fontname' => 'Allan',
       'variants' => array(
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b1',
-        ),
+        'n7' => 'Bold',
       ),
     ),
     'allerta' => array(
-      'name' => 'Allerta',
+      'fontname' => 'Allerta',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'allura' => array(
-      'name' => 'Allura',
+      'fontname' => 'Allura',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b5',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'almendra' => array(
-      'name' => 'Almendra',
+      'fontname' => 'Almendra',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b7',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b8',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b6',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'almendra-sc' => array(
-      'name' => 'Almendra SC',
+      'fontname' => 'Almendra SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122b9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'amaranth' => array(
-      'name' => 'Amaranth',
+      'fontname' => 'Amaranth',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122bd',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122bb',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ba',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122bc',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'amatic-sc' => array(
-      'name' => 'Amatic SC',
+      'fontname' => 'Amatic SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122be',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122bf',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'amethysta' => array(
-      'name' => 'Amethysta',
+      'fontname' => 'Amethysta',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122c0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'andada' => array(
-      'name' => 'Andada',
+      'fontname' => 'Andada',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122c1',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'andika' => array(
-      'name' => 'Andika',
+      'fontname' => 'Andika',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122c2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'annie-use-your-telescope' => array(
-      'name' => 'Annie Use Your Telescope',
+      'fontname' => 'Annie Use Your Telescope',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122c4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'anonymous-pro' => array(
-      'name' => 'Anonymous Pro',
+      'fontname' => 'Anonymous Pro',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ffc5',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ffc4',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ffc2',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ffc3',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'antic' => array(
-      'name' => 'Antic',
+      'fontname' => 'Antic',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'antic-didone' => array(
-      'name' => 'Antic Didone',
+      'fontname' => 'Antic Didone',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'antic-slab' => array(
-      'name' => 'Antic Slab',
+      'fontname' => 'Antic Slab',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'arapey' => array(
-      'name' => 'Arapey',
+      'fontname' => 'Arapey',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122db',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122dc',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'arbutus' => array(
-      'name' => 'Arbutus',
+      'fontname' => 'Arbutus',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122e4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'architects-daughter' => array(
-      'name' => 'Architects Daughter',
+      'fontname' => 'Architects Daughter',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122e5',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'arimo' => array(
-      'name' => 'Arimo',
+      'fontname' => 'Arimo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122e6',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122e8',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122e7',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122e9',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'arizonia' => array(
-      'name' => 'Arizonia',
+      'fontname' => 'Arizonia',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ee',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'artifika' => array(
-      'name' => 'Artifika',
+      'fontname' => 'Artifika',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'arvo' => array(
-      'name' => 'Arvo',
+      'fontname' => 'Arvo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ea',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ed',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ec',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122eb',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'asap' => array(
-      'name' => 'Asap',
+      'fontname' => 'Asap',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f3',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f2',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f1',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f4',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'asset' => array(
-      'name' => 'Asset',
+      'fontname' => 'Asset',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001264a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'astloch' => array(
-      'name' => 'Astloch',
+      'fontname' => 'Astloch',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001230f',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012310',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'asul' => array(
-      'name' => 'Asul',
+      'fontname' => 'Asul',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012311',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012312',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'atomic-age' => array(
-      'name' => 'Atomic Age',
+      'fontname' => 'Atomic Age',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122fe',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'aubrey' => array(
-      'name' => 'Aubrey',
+      'fontname' => 'Aubrey',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012301',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'average' => array(
-      'name' => 'Average',
+      'fontname' => 'Average',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001249a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'averia-gruesa-libre' => array(
-      'name' => 'Averia Gruesa Libre',
+      'fontname' => 'Averia Gruesa Libre',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001249b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'averia-libre' => array(
-      'name' => 'Averia Libre',
+      'fontname' => 'Averia Libre',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000001249c',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012522',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012521',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001249d',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001249f',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001249e',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'averia-sans-libre' => array(
-      'name' => 'Averia Sans Libre',
+      'fontname' => 'Averia Sans Libre',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012526',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012527',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012528',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012520',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012525',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012529',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'averia-serif-libre' => array(
-      'name' => 'Averia Serif Libre',
+      'fontname' => 'Averia Serif Libre',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012524',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001252d',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001252c',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001252a',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001251f',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001252b',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'bad-script' => array(
-      'name' => 'Bad Script',
+      'fontname' => 'Bad Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012331',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'balthazar' => array(
-      'name' => 'Balthazar',
+      'fontname' => 'Balthazar',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012332',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bangers' => array(
-      'name' => 'Bangers',
+      'fontname' => 'Bangers',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012333',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'basic' => array(
-      'name' => 'Basic',
+      'fontname' => 'Basic',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012334',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'baumans' => array(
-      'name' => 'Baumans',
+      'fontname' => 'Baumans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012335',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bebas-neue' => array(
-      'name' => 'Bebas Neue',
+      'fontname' => 'Bebas Neue',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000010b09',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'belgrano' => array(
-      'name' => 'Belgrano',
+      'fontname' => 'Belgrano',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012339',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bentham' => array(
-      'name' => 'Bentham',
+      'fontname' => 'Bentham',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001233a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'berkshire-swash' => array(
-      'name' => 'Berkshire Swash',
+      'fontname' => 'Berkshire Swash',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012499',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bigshot-one' => array(
-      'name' => 'Bigshot One',
+      'fontname' => 'Bigshot One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001233c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bilbo' => array(
-      'name' => 'Bilbo',
+      'fontname' => 'Bilbo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001233d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bilbo-swash-caps' => array(
-      'name' => 'Bilbo Swash Caps',
+      'fontname' => 'Bilbo Swash Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001233e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bitter' => array(
-      'name' => 'Bitter',
+      'fontname' => 'Bitter',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001233f',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012340',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012341',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'black-ops-one' => array(
-      'name' => 'Black Ops One',
+      'fontname' => 'Black Ops One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012342',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bonbon' => array(
-      'name' => 'Bonbon',
+      'fontname' => 'Bonbon',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012344',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'boogaloo' => array(
-      'name' => 'Boogaloo',
+      'fontname' => 'Boogaloo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012345',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bowlby-one' => array(
-      'name' => 'Bowlby One',
+      'fontname' => 'Bowlby One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012346',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bowlby-one-sc' => array(
-      'name' => 'Bowlby One SC',
+      'fontname' => 'Bowlby One SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125db',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'brawler' => array(
-      'name' => 'Brawler',
+      'fontname' => 'Brawler',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012348',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bree-serif' => array(
-      'name' => 'Bree Serif',
+      'fontname' => 'Bree Serif',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012136',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'brush-script-std' => array(
-      'name' => 'Brush Script Std',
+      'fontname' => 'Brush Script Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131c0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bubblegum-sans' => array(
-      'name' => 'Bubblegum Sans',
+      'fontname' => 'Bubblegum Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001234a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'bubbler-one' => array(
-      'name' => 'Bubbler One',
+      'fontname' => 'Bubbler One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012349',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'buda' => array(
-      'name' => 'Buda',
+      'fontname' => 'Buda',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000001234b',
-        ),
+        'n3' => 'Light',
       ),
     ),
     'buenard' => array(
-      'name' => 'Buenard',
+      'fontname' => 'Buenard',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001234c',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001234d',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'butcherman' => array(
-      'name' => 'Butcherman',
+      'fontname' => 'Butcherman',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001234e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'butcherman-caps' => array(
-      'name' => 'Butcherman Caps',
+      'fontname' => 'Butcherman Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001234f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'butterfly-kids' => array(
-      'name' => 'Butterfly Kids',
+      'fontname' => 'Butterfly Kids',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012350',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cabin' => array(
-      'name' => 'Cabin',
+      'fontname' => 'Cabin',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012351',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012352',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/000000000000000000012355',
-        ),
-        'i5' => array(
-          'name' => 'Medium Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012356',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012357',
-        ),
-        'i6' => array(
-          'name' => 'Semibold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012358',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012353',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012354',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n5' => 'Medium',
+        'i5' => 'Medium Italic',
+        'n6' => 'Semibold',
+        'i6' => 'Semibold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'cabin-condensed' => array(
-      'name' => 'Cabin Condensed',
+      'fontname' => 'Cabin Condensed',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012359',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/00000000000000000001235b',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001235c',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001235a',
-        ),
+        'n4' => 'Regular',
+        'n5' => 'Medium',
+        'n6' => 'Semibold',
+        'n7' => 'Bold',
       ),
     ),
     'cabin-sketch' => array(
-      'name' => 'Cabin Sketch',
+      'fontname' => 'Cabin Sketch',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001235d',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001235e',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'caesar-dressing' => array(
-      'name' => 'Caesar Dressing',
+      'fontname' => 'Caesar Dressing',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001235f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cagliostro' => array(
-      'name' => 'Cagliostro',
+      'fontname' => 'Cagliostro',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012360',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'calligraffitti' => array(
-      'name' => 'Calligraffitti',
+      'fontname' => 'Calligraffitti',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125eb',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cambo' => array(
-      'name' => 'Cambo',
+      'fontname' => 'Cambo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012362',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cantarell' => array(
-      'name' => 'Cantarell',
+      'fontname' => 'Cantarell',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012364',
-        ),
-        'i4' => array(
-          'name' => 'Oblique',
-          'license' => 'http://typekit.com/eulas/000000000000000000012365',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012366',
-        ),
-        'i7' => array(
-          'name' => 'Bold Oblique',
-          'license' => 'http://typekit.com/eulas/000000000000000000012367',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Oblique',
+        'n7' => 'Bold',
+        'i7' => 'Bold Oblique',
       ),
     ),
     'cantata-one' => array(
-      'name' => 'Cantata One',
+      'fontname' => 'Cantata One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012aca',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cardo' => array(
-      'name' => 'Cardo',
+      'fontname' => 'Cardo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012369',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001236a',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001236b',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'carme' => array(
-      'name' => 'Carme',
+      'fontname' => 'Carme',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001236c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'carter-one' => array(
-      'name' => 'Carter One',
+      'fontname' => 'Carter One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001236d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'caudex' => array(
-      'name' => 'Caudex',
+      'fontname' => 'Caudex',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012370',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012371',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012372',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012373',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'cedarville-cursive' => array(
-      'name' => 'Cedarville Cursive',
+      'fontname' => 'Cedarville Cursive',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Cursive',
-          'license' => 'http://typekit.com/eulas/00000000000000000001236e',
-        ),
+        'n4' => 'Cursive',
       ),
     ),
     'ceviche-one' => array(
-      'name' => 'Ceviche One',
+      'fontname' => 'Ceviche One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001236f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'changa-one' => array(
-      'name' => 'Changa One',
+      'fontname' => 'Changa One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012374',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012375',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'chango' => array(
-      'name' => 'Chango',
+      'fontname' => 'Chango',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012376',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'chelsea-market' => array(
-      'name' => 'Chelsea Market',
+      'fontname' => 'Chelsea Market',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012377',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cherry-cream-soda' => array(
-      'name' => 'Cherry Cream Soda',
+      'fontname' => 'Cherry Cream Soda',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012390',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'chewy' => array(
-      'name' => 'Chewy',
+      'fontname' => 'Chewy',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012395',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'chicle' => array(
-      'name' => 'Chicle',
+      'fontname' => 'Chicle',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012396',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'chivo' => array(
-      'name' => 'Chivo',
+      'fontname' => 'Chivo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001239a',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012399',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/000000000000000000012397',
-        ),
-        'i9' => array(
-          'name' => 'Black Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012398',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n9' => 'Black',
+        'i9' => 'Black Italic',
       ),
     ),
     'chunk' => array(
-      'name' => 'Chunk',
+      'fontname' => 'Chunk',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d759',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'clara' => array(
-      'name' => 'Clara',
+      'fontname' => 'Clara',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b6',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'coda' => array(
-      'name' => 'Coda',
+      'fontname' => 'Coda',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b7',
-        ),
-        'n8' => array(
-          'name' => 'Heavy',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b8',
-        ),
+        'n4' => 'Regular',
+        'n8' => 'Heavy',
       ),
     ),
     'coda-caption' => array(
-      'name' => 'Coda Caption',
+      'fontname' => 'Coda Caption',
       'variants' => array(
-        'n8' => array(
-          'name' => 'Heavy',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b9',
-        ),
+        'n8' => 'Heavy',
       ),
     ),
     'codystar' => array(
-      'name' => 'Codystar',
+      'fontname' => 'Codystar',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012498',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121bd',
-        ),
+        'n3' => 'Light',
+        'n4' => 'Regular',
       ),
     ),
     'comfortaa' => array(
-      'name' => 'Comfortaa',
+      'fontname' => 'Comfortaa',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125dd',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125dc',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125de',
-        ),
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'coming-soon' => array(
-      'name' => 'Coming Soon',
+      'fontname' => 'Coming Soon',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123bd',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'concert-one' => array(
-      'name' => 'Concert One',
+      'fontname' => 'Concert One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125df',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'condiment' => array(
-      'name' => 'Condiment',
+      'fontname' => 'Condiment',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123bf',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'contrail-one' => array(
-      'name' => 'Contrail One',
+      'fontname' => 'Contrail One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'convergence' => array(
-      'name' => 'Convergence',
+      'fontname' => 'Convergence',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cookie' => array(
-      'name' => 'Cookie',
+      'fontname' => 'Cookie',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cooper-black-std' => array(
-      'name' => 'Cooper Black Std',
+      'fontname' => 'Cooper Black Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000013101',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000013102',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'copse' => array(
-      'name' => 'Copse',
+      'fontname' => 'Copse',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c5',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'corben' => array(
-      'name' => 'Corben',
+      'fontname' => 'Corben',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c6',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c7',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'cousine' => array(
-      'name' => 'Cousine',
+      'fontname' => 'Cousine',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c9',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ca',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123cb',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123cc',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'coustard' => array(
-      'name' => 'Coustard',
+      'fontname' => 'Coustard',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123cd',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ce',
-        ),
+        'n4' => 'Regular',
+        'n9' => 'Black',
       ),
     ),
     'covered-by-your-grace' => array(
-      'name' => 'Covered By Your Grace',
+      'fontname' => 'Covered By Your Grace',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123d9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'crafty-girls' => array(
-      'name' => 'Crafty Girls',
+      'fontname' => 'Crafty Girls',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123db',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'creepster' => array(
-      'name' => 'Creepster',
+      'fontname' => 'Creepster',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f7',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'creepster-caps' => array(
-      'name' => 'Creepster Caps',
+      'fontname' => 'Creepster Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'crete-round' => array(
-      'name' => 'Crete Round',
+      'fontname' => 'Crete Round',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123fd',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123fe',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'crimson-text' => array(
-      'name' => 'Crimson Text',
+      'fontname' => 'Crimson Text',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Roman',
-          'license' => 'http://typekit.com/eulas/000000000000000000012400',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124df',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e2',
-        ),
-        'i6' => array(
-          'name' => 'Semibold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e3',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e0',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e1',
-        ),
+        'n4' => 'Roman',
+        'i4' => 'Italic',
+        'n6' => 'Semibold',
+        'i6' => 'Semibold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'crushed' => array(
-      'name' => 'Crushed',
+      'fontname' => 'Crushed',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012401',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cuprum' => array(
-      'name' => 'Cuprum',
+      'fontname' => 'Cuprum',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125a8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'cutive' => array(
-      'name' => 'Cutive',
+      'fontname' => 'Cutive',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001259e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'damion' => array(
-      'name' => 'Damion',
+      'fontname' => 'Damion',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012404',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'dancing-script' => array(
-      'name' => 'Dancing Script',
+      'fontname' => 'Dancing Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012405',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012406',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'dawning-of-a-new-day' => array(
-      'name' => 'Dawning of a New Day',
+      'fontname' => 'Dawning of a New Day',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012408',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'days-one' => array(
-      'name' => 'Days One',
+      'fontname' => 'Days One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012409',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'de-walpergens-pica' => array(
-      'name' => 'De Walpergen\'s Pica',
+      'fontname' => 'De Walpergen\'s Pica',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f1',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f0',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'de-walpergens-pica-small-caps' => array(
-      'name' => 'De Walpergen\'s Pica Small Caps',
+      'fontname' => 'De Walpergen\'s Pica Small Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ef',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'delius' => array(
-      'name' => 'Delius',
+      'fontname' => 'Delius',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001240a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'delius-swash-caps' => array(
-      'name' => 'Delius Swash Caps',
+      'fontname' => 'Delius Swash Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001240b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'delius-unicase' => array(
-      'name' => 'Delius Unicase',
+      'fontname' => 'Delius Unicase',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001240c',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001240d',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'devonshire' => array(
-      'name' => 'Devonshire',
+      'fontname' => 'Devonshire',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001240e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'dhyana' => array(
-      'name' => 'Dhyana',
+      'fontname' => 'Dhyana',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125c4',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125c5',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'didact-gothic' => array(
-      'name' => 'Didact Gothic',
+      'fontname' => 'Didact Gothic',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012411',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'diplomata' => array(
-      'name' => 'Diplomata',
+      'fontname' => 'Diplomata',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012412',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'diplomata-sc' => array(
-      'name' => 'Diplomata SC',
+      'fontname' => 'Diplomata SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012413',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'doppio-one' => array(
-      'name' => 'Doppio One',
+      'fontname' => 'Doppio One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012414',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'dorsa' => array(
-      'name' => 'Dorsa',
+      'fontname' => 'Dorsa',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012415',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'dosis' => array(
-      'name' => 'Dosis',
+      'fontname' => 'Dosis',
       'variants' => array(
-        'n2' => array(
-          'name' => 'Extra Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125e3',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125e4',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125e5',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125e6',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125e7',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125e8',
-        ),
-        'n8' => array(
-          'name' => 'Extra Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125e9',
-        ),
+        'n2' => 'Extra Light',
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n5' => 'Medium',
+        'n6' => 'Semibold',
+        'n7' => 'Bold',
+        'n8' => 'Extra Bold',
       ),
     ),
     'double-pica' => array(
-      'name' => 'Double Pica',
+      'fontname' => 'Double Pica',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e8',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e5',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'double-pica-small-caps' => array(
-      'name' => 'Double Pica Small Caps',
+      'fontname' => 'Double Pica Small Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'dr-sugiyama' => array(
-      'name' => 'Dr Sugiyama',
+      'fontname' => 'Dr Sugiyama',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012416',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'droid-sans' => array(
-      'name' => 'Droid Sans',
+      'fontname' => 'Droid Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012417',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012418',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'droid-sans-mono' => array(
-      'name' => 'Droid Sans Mono',
+      'fontname' => 'Droid Sans Mono',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012419',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'droid-serif' => array(
-      'name' => 'Droid Serif',
+      'fontname' => 'Droid Serif',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001241a',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001241b',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001241c',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001241d',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'duru-sans' => array(
-      'name' => 'Duru Sans',
+      'fontname' => 'Duru Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012acb',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'dynalight' => array(
-      'name' => 'Dynalight',
+      'fontname' => 'Dynalight',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001241e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'eb-garamond' => array(
-      'name' => 'EB Garamond',
+      'fontname' => 'EB Garamond',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012422',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'eater' => array(
-      'name' => 'Eater',
+      'fontname' => 'Eater',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001241f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'eater-caps' => array(
-      'name' => 'Eater Caps',
+      'fontname' => 'Eater Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012421',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'economica' => array(
-      'name' => 'Economica',
+      'fontname' => 'Economica',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012423',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012424',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012425',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012426',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'electrolize' => array(
-      'name' => 'Electrolize',
+      'fontname' => 'Electrolize',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012427',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'emblema-one' => array(
-      'name' => 'Emblema One',
+      'fontname' => 'Emblema One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012428',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'emilys-candy' => array(
-      'name' => 'Emilys Candy',
+      'fontname' => 'Emilys Candy',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012429',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'engagement' => array(
-      'name' => 'Engagement',
+      'fontname' => 'Engagement',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001242a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'english' => array(
-      'name' => 'English',
+      'fontname' => 'English',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Roman',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e6',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e7',
-        ),
+        'n4' => 'Roman',
+        'i4' => 'Italic',
       ),
     ),
     'english-small-caps' => array(
-      'name' => 'English Small Caps',
+      'fontname' => 'English Small Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124e9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'enriqueta' => array(
-      'name' => 'Enriqueta',
+      'fontname' => 'Enriqueta',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001242b',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001242c',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'erica-one' => array(
-      'name' => 'Erica One',
+      'fontname' => 'Erica One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001242d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'esteban' => array(
-      'name' => 'Esteban',
+      'fontname' => 'Esteban',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001242e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'euphoria-script' => array(
-      'name' => 'Euphoria Script',
+      'fontname' => 'Euphoria Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001242f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ewert' => array(
-      'name' => 'Ewert',
+      'fontname' => 'Ewert',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012430',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'exo' => array(
-      'name' => 'Exo',
+      'fontname' => 'Exo',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Thin',
-          'license' => 'http://typekit.com/eulas/000000000000000000012435',
-        ),
-        'i1' => array(
-          'name' => 'Thin Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012436',
-        ),
-        'n2' => array(
-          'name' => 'Extra Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000001243d',
-        ),
-        'i2' => array(
-          'name' => 'Extra Light Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001243f',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012437',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012438',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012431',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012432',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/000000000000000000012439',
-        ),
-        'i5' => array(
-          'name' => 'Medium Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012440',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012441',
-        ),
-        'i6' => array(
-          'name' => 'Semibold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012442',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012433',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012434',
-        ),
-        'n8' => array(
-          'name' => 'Extra Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001243b',
-        ),
-        'i8' => array(
-          'name' => 'Extra Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001243c',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/00000000000000000001243e',
-        ),
-        'i9' => array(
-          'name' => 'Black Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001243a',
-        ),
+        'n1' => 'Thin',
+        'i1' => 'Thin Italic',
+        'n2' => 'Extra Light',
+        'i2' => 'Extra Light Italic',
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n5' => 'Medium',
+        'i5' => 'Medium Italic',
+        'n6' => 'Semibold',
+        'i6' => 'Semibold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
+        'n8' => 'Extra Bold',
+        'i8' => 'Extra Bold Italic',
+        'n9' => 'Black',
+        'i9' => 'Black Italic',
       ),
     ),
     'expletus-sans' => array(
-      'name' => 'Expletus Sans',
+      'fontname' => 'Expletus Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012443',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012447',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/000000000000000000012445',
-        ),
-        'i5' => array(
-          'name' => 'Medium Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001244a',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012448',
-        ),
-        'i6' => array(
-          'name' => 'Semibold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012449',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012444',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012446',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n5' => 'Medium',
+        'i5' => 'Medium Italic',
+        'n6' => 'Semibold',
+        'i6' => 'Semibold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'fanwood-text' => array(
-      'name' => 'Fanwood Text',
+      'fontname' => 'Fanwood Text',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001244b',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001244c',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'fascinate' => array(
-      'name' => 'Fascinate',
+      'fontname' => 'Fascinate',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001244e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'fascinate-inline' => array(
-      'name' => 'Fascinate Inline',
+      'fontname' => 'Fascinate Inline',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001244f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'federant' => array(
-      'name' => 'Federant',
+      'fontname' => 'Federant',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001244d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'federo' => array(
-      'name' => 'Federo',
+      'fontname' => 'Federo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012452',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'felipa' => array(
-      'name' => 'Felipa',
+      'fontname' => 'Felipa',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012450',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'flamenco' => array(
-      'name' => 'Flamenco',
+      'fontname' => 'Flamenco',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012454',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012453',
-        ),
+        'n3' => 'Light',
+        'n4' => 'Regular',
       ),
     ),
     'flavors' => array(
-      'name' => 'Flavors',
+      'fontname' => 'Flavors',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012455',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'fondamento' => array(
-      'name' => 'Fondamento',
+      'fontname' => 'Fondamento',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012456',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012457',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'fontdiner-swanky' => array(
-      'name' => 'Fontdiner Swanky',
+      'fontname' => 'Fontdiner Swanky',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012458',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'forum' => array(
-      'name' => 'Forum',
+      'fontname' => 'Forum',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012459',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'fredericka-the-great' => array(
-      'name' => 'Fredericka the Great',
+      'fontname' => 'Fredericka the Great',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001245b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'fredoka-one' => array(
-      'name' => 'Fredoka One',
+      'fontname' => 'Fredoka One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a5',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'french-canon' => array(
-      'name' => 'French Canon',
+      'fontname' => 'French Canon',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ea',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124eb',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'french-canon-small-caps' => array(
-      'name' => 'French Canon Small Caps',
+      'fontname' => 'French Canon Small Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ec',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'fresca' => array(
-      'name' => 'Fresca',
+      'fontname' => 'Fresca',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001245d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'frijole' => array(
-      'name' => 'Frijole',
+      'fontname' => 'Frijole',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001245e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'fugaz-one' => array(
-      'name' => 'Fugaz One',
+      'fontname' => 'Fugaz One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001245f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'fusaka-std' => array(
-      'name' => 'Fusaka Std',
+      'fontname' => 'Fusaka Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131c1',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gfs-didot' => array(
-      'name' => 'GFS Didot',
+      'fontname' => 'GFS Didot',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001246e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gfs-neohellenic' => array(
-      'name' => 'GFS Neohellenic',
+      'fontname' => 'GFS Neohellenic',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001246f',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012472',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012470',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012471',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'galdeano' => array(
-      'name' => 'Galdeano',
+      'fontname' => 'Galdeano',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012460',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gentium-basic' => array(
-      'name' => 'Gentium Basic',
+      'fontname' => 'Gentium Basic',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012461',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012462',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012463',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012464',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'gentium-book-basic' => array(
-      'name' => 'Gentium Book Basic',
+      'fontname' => 'Gentium Book Basic',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012465',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012466',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012467',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012469',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'geo' => array(
-      'name' => 'Geo',
+      'fontname' => 'Geo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001246a',
-        ),
-        'i4' => array(
-          'name' => 'Oblique',
-          'license' => 'http://typekit.com/eulas/000000000000000000012468',
-        ),
+        'i4' => 'Oblique',
+        'n4' => 'Regular',
       ),
     ),
     'geostar' => array(
-      'name' => 'Geostar',
+      'fontname' => 'Geostar',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001246b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'geostar-fill' => array(
-      'name' => 'Geostar Fill',
+      'fontname' => 'Geostar Fill',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001246c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'germania-one' => array(
-      'name' => 'Germania One',
+      'fontname' => 'Germania One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001246d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'giddyup-std' => array(
-      'name' => 'Giddyup Std',
+      'fontname' => 'Giddyup Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131c2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'give-you-glory' => array(
-      'name' => 'Give You Glory',
+      'fontname' => 'Give You Glory',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012473',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'glass-antiqua' => array(
-      'name' => 'Glass Antiqua',
+      'fontname' => 'Glass Antiqua',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012474',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'glegoo' => array(
-      'name' => 'Glegoo',
+      'fontname' => 'Glegoo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012475',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gloria-hallelujah' => array(
-      'name' => 'Gloria Hallelujah',
+      'fontname' => 'Gloria Hallelujah',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012476',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'goblin-one' => array(
-      'name' => 'Goblin One',
+      'fontname' => 'Goblin One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012478',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gochi-hand' => array(
-      'name' => 'Gochi Hand',
+      'fontname' => 'Gochi Hand',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012477',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gorditas' => array(
-      'name' => 'Gorditas',
+      'fontname' => 'Gorditas',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a6',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a7',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'goudy-bookletter-1911' => array(
-      'name' => 'Goudy Bookletter 1911',
+      'fontname' => 'Goudy Bookletter 1911',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012479',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'graduate' => array(
-      'name' => 'Graduate',
+      'fontname' => 'Graduate',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gravitas-one' => array(
-      'name' => 'Gravitas One',
+      'fontname' => 'Gravitas One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001247a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'great-primer' => array(
-      'name' => 'Great Primer',
+      'fontname' => 'Great Primer',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Roman',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ee',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ed',
-        ),
+        'n4' => 'Roman',
+        'i4' => 'Italic',
       ),
     ),
     'great-primer-small-caps' => array(
-      'name' => 'Great Primer Small Caps',
+      'fontname' => 'Great Primer Small Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gruppo' => array(
-      'name' => 'Gruppo',
+      'fontname' => 'Gruppo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125f4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'gudea' => array(
-      'name' => 'Gudea',
+      'fontname' => 'Gudea',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001247c',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001247d',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001247e',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'habibi' => array(
-      'name' => 'Habibi',
+      'fontname' => 'Habibi',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001247f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'hammersmith-one' => array(
-      'name' => 'Hammersmith One',
+      'fontname' => 'Hammersmith One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012480',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'handlee' => array(
-      'name' => 'Handlee',
+      'fontname' => 'Handlee',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012481',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'happy-monkey' => array(
-      'name' => 'Happy Monkey',
+      'fontname' => 'Happy Monkey',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'henny-penny' => array(
-      'name' => 'Henny Penny',
+      'fontname' => 'Henny Penny',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012485',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'herr-von-muellerhoff' => array(
-      'name' => 'Herr Von Muellerhoff',
+      'fontname' => 'Herr Von Muellerhoff',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012484',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'hobo-std' => array(
-      'name' => 'Hobo Std',
+      'fontname' => 'Hobo Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131c3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'holtwood-one-sc' => array(
-      'name' => 'Holtwood One SC',
+      'fontname' => 'Holtwood One SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012486',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'homemade-apple' => array(
-      'name' => 'Homemade Apple',
+      'fontname' => 'Homemade Apple',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012487',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'homenaje' => array(
-      'name' => 'Homenaje',
+      'fontname' => 'Homenaje',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012488',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'iceberg' => array(
-      'name' => 'Iceberg',
+      'fontname' => 'Iceberg',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012489',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'iceland' => array(
-      'name' => 'Iceland',
+      'fontname' => 'Iceland',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001248a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'immi-five-of-five' => array(
-      'name' => 'Immi Five Of Five',
+      'fontname' => 'Immi Five Of Five',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131c4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'imprima' => array(
-      'name' => 'Imprima',
+      'fontname' => 'Imprima',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a1',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'inconsolata' => array(
-      'name' => 'Inconsolata',
+      'fontname' => 'Inconsolata',
       'variants' => array(
-        'n5' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ace',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012acd',
-        ),
+        'n5' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'inder' => array(
-      'name' => 'Inder',
+      'fontname' => 'Inder',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001248d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'indie-flower' => array(
-      'name' => 'Indie Flower',
+      'fontname' => 'Indie Flower',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001248e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'inika' => array(
-      'name' => 'Inika',
+      'fontname' => 'Inika',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012490',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001248f',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'irish-grover' => array(
-      'name' => 'Irish Grover',
+      'fontname' => 'Irish Grover',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012491',
-        ),
+        'n4' => 'Regular',
+      ),
+    ),
+    'irish-growler' => array(
+      'fontname' => 'Irish Growler',
+      'variants' => array(
+        'n4' => 'Regular',
       ),
     ),
     'istok-web' => array(
-      'name' => 'Istok Web',
+      'fontname' => 'Istok Web',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012493',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012494',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012495',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012496',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'italiana' => array(
-      'name' => 'Italiana',
+      'fontname' => 'Italiana',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124a9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'italianno' => array(
-      'name' => 'Italianno',
+      'fontname' => 'Italianno',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012497',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'jim-nightshade' => array(
-      'name' => 'Jim Nightshade',
+      'fontname' => 'Jim Nightshade',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'jockey-one' => array(
-      'name' => 'Jockey One',
+      'fontname' => 'Jockey One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121df',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'jolly-lodger' => array(
-      'name' => 'Jolly Lodger',
+      'fontname' => 'Jolly Lodger',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121de',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'josefin-sans' => array(
-      'name' => 'Josefin Sans',
+      'fontname' => 'Josefin Sans',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Thin',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c6',
-        ),
-        'i1' => array(
-          'name' => 'Thin Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c4',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c0',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c2',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c3',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c1',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c5',
-        ),
-        'i6' => array(
-          'name' => 'Semibold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c7',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121bf',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121be',
-        ),
+        'n1' => 'Thin',
+        'i1' => 'Thin Italic',
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n6' => 'Semibold',
+        'i6' => 'Semibold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'josefin-slab' => array(
-      'name' => 'Josefin Slab',
+      'fontname' => 'Josefin Slab',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Thin',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121d9',
-        ),
-        'i1' => array(
-          'name' => 'Thin Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121db',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121d7',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121cb',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121c9',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121d8',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121dd',
-        ),
-        'i6' => array(
-          'name' => 'Semibold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121dc',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121ca',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121da',
-        ),
+        'n1' => 'Thin',
+        'i1' => 'Thin Italic',
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n6' => 'Semibold',
+        'i6' => 'Semibold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'judson' => array(
-      'name' => 'Judson',
+      'fontname' => 'Judson',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e2',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e1',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e0',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'julee' => array(
-      'name' => 'Julee',
+      'fontname' => 'Julee',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'junge' => array(
-      'name' => 'Junge',
+      'fontname' => 'Junge',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012523',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'jura' => array(
-      'name' => 'Jura',
+      'fontname' => 'Jura',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e6',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e8',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e7',
-        ),
-        'n6' => array(
-          'name' => 'Demibold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121e5',
-        ),
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n5' => 'Medium',
+        'n6' => 'Demibold',
       ),
     ),
     'just-another-hand' => array(
-      'name' => 'Just Another Hand',
+      'fontname' => 'Just Another Hand',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121fc',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'just-me-again-down-here' => array(
-      'name' => 'Just Me Again Down Here',
+      'fontname' => 'Just Me Again Down Here',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121fd',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'kaffeesatz' => array(
-      'name' => 'Kaffeesatz',
+      'fontname' => 'Kaffeesatz',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Extra Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125f1',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125f0',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125ef',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125ee',
-        ),
+        'n1' => 'Extra Light',
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'kameron' => array(
-      'name' => 'Kameron',
+      'fontname' => 'Kameron',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121ff',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000121fe',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'karla' => array(
-      'name' => 'Karla',
+      'fontname' => 'Karla',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124aa',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ab',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ad',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ac',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'kaushan-script' => array(
-      'name' => 'Kaushan Script',
+      'fontname' => 'Kaushan Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012200',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'kelly-slab' => array(
-      'name' => 'Kelly Slab',
+      'fontname' => 'Kelly Slab',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012201',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'kenia' => array(
-      'name' => 'Kenia',
+      'fontname' => 'Kenia',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001285a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'knewave' => array(
-      'name' => 'Knewave',
+      'fontname' => 'Knewave',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012204',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'kotta-one' => array(
-      'name' => 'Kotta One',
+      'fontname' => 'Kotta One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012205',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'kranky' => array(
-      'name' => 'Kranky',
+      'fontname' => 'Kranky',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012208',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'kreon' => array(
-      'name' => 'Kreon',
+      'fontname' => 'Kreon',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124d5',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124d6',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124d4',
-        ),
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'kristi' => array(
-      'name' => 'Kristi',
+      'fontname' => 'Kristi',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124d7',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'krona-one' => array(
-      'name' => 'Krona One',
+      'fontname' => 'Krona One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012209',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'la-belle-aurore' => array(
-      'name' => 'La Belle Aurore',
+      'fontname' => 'La Belle Aurore',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001220a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lancelot' => array(
-      'name' => 'Lancelot',
+      'fontname' => 'Lancelot',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001220b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lateef' => array(
-      'name' => 'Lateef',
+      'fontname' => 'Lateef',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001220c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lato' => array(
-      'name' => 'Lato',
+      'fontname' => 'Lato',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Hairline',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b2',
-        ),
-        'i1' => array(
-          'name' => 'Hairline Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b3',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b4',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b5',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ae',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124af',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b0',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b1',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b6',
-        ),
-        'i9' => array(
-          'name' => 'Black Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b7',
-        ),
+        'n1' => 'Hairline',
+        'i1' => 'Hairline Italic',
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
+        'n9' => 'Black',
+        'i9' => 'Black Italic',
       ),
     ),
     'league-gothic' => array(
-      'name' => 'League Gothic',
+      'fontname' => 'League Gothic',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012b15',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'leckerli-one' => array(
-      'name' => 'Leckerli One',
+      'fontname' => 'Leckerli One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125ea',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ledger' => array(
-      'name' => 'Ledger',
+      'fontname' => 'Ledger',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012219',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lekton' => array(
-      'name' => 'Lekton',
+      'fontname' => 'Lekton',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001221c',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001221b',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001221a',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'lemon' => array(
-      'name' => 'Lemon',
+      'fontname' => 'Lemon',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001221d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lilita-one' => array(
-      'name' => 'Lilita One',
+      'fontname' => 'Lilita One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001221e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'linden-hill' => array(
-      'name' => 'Linden Hill',
+      'fontname' => 'Linden Hill',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001006b',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001006c',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'lobster' => array(
-      'name' => 'Lobster',
+      'fontname' => 'Lobster',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012224',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lobster-two' => array(
-      'name' => 'Lobster Two',
+      'fontname' => 'Lobster Two',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012223',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012221',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012220',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012222',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'londrina-outline' => array(
-      'name' => 'Londrina Outline',
+      'fontname' => 'Londrina Outline',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012503',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'londrina-shadow' => array(
-      'name' => 'Londrina Shadow',
+      'fontname' => 'Londrina Shadow',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012502',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'londrina-sketch' => array(
-      'name' => 'Londrina Sketch',
+      'fontname' => 'Londrina Sketch',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012504',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'londrina-solid' => array(
-      'name' => 'Londrina Solid',
+      'fontname' => 'Londrina Solid',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012505',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lora' => array(
-      'name' => 'Lora',
+      'fontname' => 'Lora',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012228',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012225',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012227',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012226',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'love-ya-like-a-sister' => array(
-      'name' => 'Love Ya Like A Sister',
+      'fontname' => 'Love Ya Like A Sister',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012229',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'loved-by-the-king' => array(
-      'name' => 'Loved by the King',
+      'fontname' => 'Loved by the King',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001222a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'luckiest-guy' => array(
-      'name' => 'Luckiest Guy',
+      'fontname' => 'Luckiest Guy',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001222b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'lusitana' => array(
-      'name' => 'Lusitana',
+      'fontname' => 'Lusitana',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001222d',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001222c',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'lustria' => array(
-      'name' => 'Lustria',
+      'fontname' => 'Lustria',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001222e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'm-1c' => array(
-      'name' => 'M+ 1c',
+      'fontname' => 'M+ 1c',
       'variants' => array(
-        'n2' => array(
-          'name' => 'Thin',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d305',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d302',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d304',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d303',
-        ),
-        'n7' => array(
-          'name' => 'Bold ',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d300',
-        ),
-        'n8' => array(
-          'name' => 'Black ',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d2ff',
-        ),
-        'n9' => array(
-          'name' => 'Heavy ',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d301',
-        ),
+        'n2' => 'Thin',
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n5' => 'Medium',
+        'n7' => 'Bold ',
+        'n8' => 'Black ',
+        'n9' => 'Heavy ',
       ),
     ),
     'm-1m' => array(
-      'name' => 'M+ 1m ',
+      'fontname' => 'M+ 1m ',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Thin',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d36e',
-        ),
-        'n2' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d370',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d36d',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d36f',
-        ),
-        'n7' => array(
-          'name' => 'Bold ',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d371',
-        ),
+        'n1' => 'Thin',
+        'n2' => 'Light',
+        'n4' => 'Regular',
+        'n5' => 'Medium',
+        'n7' => 'Bold ',
       ),
     ),
     'macondo' => array(
-      'name' => 'Macondo',
+      'fontname' => 'Macondo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001222f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'macondo-swash-caps' => array(
-      'name' => 'Macondo Swash Caps',
+      'fontname' => 'Macondo Swash Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012230',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'maiden-orange' => array(
-      'name' => 'Maiden Orange',
+      'fontname' => 'Maiden Orange',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012233',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'mako' => array(
-      'name' => 'Mako',
+      'fontname' => 'Mako',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012234',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'marck-script' => array(
-      'name' => 'Marck Script',
+      'fontname' => 'Marck Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012235',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'marko-one' => array(
-      'name' => 'Marko One',
+      'fontname' => 'Marko One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012236',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'marmelad' => array(
-      'name' => 'Marmelad',
+      'fontname' => 'Marmelad',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012237',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'marvel' => array(
-      'name' => 'Marvel',
+      'fontname' => 'Marvel',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001223a',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012238',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012239',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001223b',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'mate' => array(
-      'name' => 'Mate',
+      'fontname' => 'Mate',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001223c',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001223d',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'mate-sc' => array(
-      'name' => 'Mate SC',
+      'fontname' => 'Mate SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001223e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'maven-pro' => array(
-      'name' => 'Maven Pro',
+      'fontname' => 'Maven Pro',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012240',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/000000000000000000012241',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012242',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/00000000000000000001223f',
-        ),
+        'n4' => 'Regular',
+        'n5' => 'Medium',
+        'n7' => 'Bold',
+        'n9' => 'Black',
       ),
     ),
     'meddon' => array(
-      'name' => 'Meddon',
+      'fontname' => 'Meddon',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012243',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'medievalsharp' => array(
-      'name' => 'MedievalSharp',
+      'fontname' => 'MedievalSharp',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012244',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'medula-one' => array(
-      'name' => 'Medula One',
+      'fontname' => 'Medula One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012245',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'megrim' => array(
-      'name' => 'Megrim',
+      'fontname' => 'Megrim',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012246',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'merienda-one' => array(
-      'name' => 'Merienda One',
+      'fontname' => 'Merienda One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012247',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'merriweather' => array(
-      'name' => 'Merriweather',
+      'fontname' => 'Merriweather',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000001224b',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001224a',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012249',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/000000000000000000012248',
-        ),
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n7' => 'Bold',
+        'n9' => 'Black',
       ),
     ),
     'metamorphous' => array(
-      'name' => 'Metamorphous',
+      'fontname' => 'Metamorphous',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ad4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'miama' => array(
-      'name' => 'Miama',
+      'fontname' => 'Miama',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001224f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'miltonian' => array(
-      'name' => 'Miltonian',
+      'fontname' => 'Miltonian',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012251',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'miltonian-tattoo' => array(
-      'name' => 'Miltonian Tattoo',
+      'fontname' => 'Miltonian Tattoo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001256d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'miniver' => array(
-      'name' => 'Miniver',
+      'fontname' => 'Miniver',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012253',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'miss-fajardose' => array(
-      'name' => 'Miss Fajardose',
+      'fontname' => 'Miss Fajardose',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012254',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'miss-saint-delafield' => array(
-      'name' => 'Miss Saint Delafield',
+      'fontname' => 'Miss Saint Delafield',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012255',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'modern-antiqua' => array(
-      'name' => 'Modern Antiqua',
+      'fontname' => 'Modern Antiqua',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012256',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'molengo' => array(
-      'name' => 'Molengo',
+      'fontname' => 'Molengo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124d8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'monofett' => array(
-      'name' => 'Monofett',
+      'fontname' => 'Monofett',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124d9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'monoton' => array(
-      'name' => 'Monoton',
+      'fontname' => 'Monoton',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124da',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'monsieur-la-doulaise' => array(
-      'name' => 'Monsieur La Doulaise',
+      'fontname' => 'Monsieur La Doulaise',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124db',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'montaga' => array(
-      'name' => 'Montaga',
+      'fontname' => 'Montaga',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124dc',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'montez' => array(
-      'name' => 'Montez',
+      'fontname' => 'Montez',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124dd',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'montserrat' => array(
-      'name' => 'Montserrat',
+      'fontname' => 'Montserrat',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124de',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'mountains-of-christmas' => array(
-      'name' => 'Mountains of Christmas',
+      'fontname' => 'Mountains of Christmas',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012257',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012264',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'mr-bedfort' => array(
-      'name' => 'Mr Bedfort',
+      'fontname' => 'Mr Bedfort',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012258',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'mr-dafoe' => array(
-      'name' => 'Mr Dafoe',
+      'fontname' => 'Mr Dafoe',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012259',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'mr-de-haviland' => array(
-      'name' => 'Mr De Haviland',
+      'fontname' => 'Mr De Haviland',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001225a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'mrs-saint-delafield' => array(
-      'name' => 'Mrs Saint Delafield',
+      'fontname' => 'Mrs Saint Delafield',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001225b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'mrs-sheppards' => array(
-      'name' => 'Mrs Sheppards',
+      'fontname' => 'Mrs Sheppards',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001225c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'muli' => array(
-      'name' => 'Muli',
+      'fontname' => 'Muli',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000001225d',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001225f',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012260',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001225e',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'mystery-quest' => array(
-      'name' => 'Mystery Quest',
+      'fontname' => 'Mystery Quest',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012261',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'neuton' => array(
-      'name' => 'Neuton',
+      'fontname' => 'Neuton',
       'variants' => array(
-        'n2' => array(
-          'name' => 'ExtraLight',
-          'license' => 'http://typekit.com/eulas/00000000000000000001226b',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000001226c',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012269',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012268',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012266',
-        ),
-        'n8' => array(
-          'name' => 'Extra Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012267',
-        ),
+        'n2' => 'ExtraLight',
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'n8' => 'Extra Bold',
       ),
     ),
     'neuton-cursive' => array(
-      'name' => 'Neuton Cursive',
+      'fontname' => 'Neuton Cursive',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001226a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'niconne' => array(
-      'name' => 'Niconne',
+      'fontname' => 'Niconne',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001226e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nixie-one' => array(
-      'name' => 'Nixie One',
+      'fontname' => 'Nixie One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125f3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nobile' => array(
-      'name' => 'Nobile',
+      'fontname' => 'Nobile',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012273',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012275',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/000000000000000000012270',
-        ),
-        'i5' => array(
-          'name' => 'Medium Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012271',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012272',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012274',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n5' => 'Medium',
+        'i5' => 'Medium Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'norican' => array(
-      'name' => 'Norican',
+      'fontname' => 'Norican',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012276',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nosifer' => array(
-      'name' => 'Nosifer',
+      'fontname' => 'Nosifer',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012277',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nothing-you-could-do' => array(
-      'name' => 'Nothing You Could Do',
+      'fontname' => 'Nothing You Could Do',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012278',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'noticia-text' => array(
-      'name' => 'Noticia Text',
+      'fontname' => 'Noticia Text',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001227a',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001227b',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012279',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001227c',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'nova-cut' => array(
-      'name' => 'Nova Cut',
+      'fontname' => 'Nova Cut',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001250f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nova-flat' => array(
-      'name' => 'Nova Flat',
+      'fontname' => 'Nova Flat',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012510',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nova-mono' => array(
-      'name' => 'Nova Mono',
+      'fontname' => 'Nova Mono',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012511',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nova-oval' => array(
-      'name' => 'Nova Oval',
+      'fontname' => 'Nova Oval',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012512',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nova-round' => array(
-      'name' => 'Nova Round',
+      'fontname' => 'Nova Round',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Book',
-          'license' => 'http://typekit.com/eulas/000000000000000000012513',
-        ),
+        'n4' => 'Book',
       ),
     ),
     'nova-script' => array(
-      'name' => 'Nova Script',
+      'fontname' => 'Nova Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012514',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nova-slim' => array(
-      'name' => 'Nova Slim',
+      'fontname' => 'Nova Slim',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012515',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'nova-square' => array(
-      'name' => 'Nova Square',
+      'fontname' => 'Nova Square',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012516',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'numans' => array(
-      'name' => 'Numans',
+      'fontname' => 'Numans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012280',
-        ),
-      ),
-    ),
-    'nunito' => array(
-      'name' => 'Nunito',
-      'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ada',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ad9',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012adb',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'old-standard' => array(
-      'name' => 'Old Standard',
+      'fontname' => 'Old Standard',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000e036',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000000e037',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000000e038',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'oldenburg' => array(
-      'name' => 'Oldenburg',
+      'fontname' => 'Oldenburg',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012284',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'open-sans' => array(
-      'name' => 'Open Sans',
+      'fontname' => 'Open Sans',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c39',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c3a',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c3b',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c38',
-        ),
-        'n6' => array(
-          'name' => 'Semi Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c3c',
-        ),
-        'i6' => array(
-          'name' => 'Semi Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c3d',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c34',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c35',
-        ),
-        'n8' => array(
-          'name' => 'Extra Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c36',
-        ),
-        'i8' => array(
-          'name' => 'Extra Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c37',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n6' => 'Semi Bold',
+        'i6' => 'Semi Bold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
+        'n8' => 'Extra Bold',
+        'i8' => 'Extra Bold Italic',
       ),
     ),
     'open-sans-condensed' => array(
-      'name' => 'Open Sans Condensed',
+      'fontname' => 'Open Sans Condensed',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012519',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001251a',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012518',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n7' => 'Bold',
       ),
     ),
     'orbitron' => array(
-      'name' => 'Orbitron',
+      'fontname' => 'Orbitron',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ddb0',
-        ),
-        'n5' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ddaf',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ddb1',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/00000000000000000000ddb2',
-        ),
+        'n3' => 'Light',
+        'n5' => 'Regular',
+        'n7' => 'Bold',
+        'n9' => 'Black',
       ),
     ),
     'original-surfer' => array(
-      'name' => 'Original Surfer',
+      'fontname' => 'Original Surfer',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012286',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'over-the-rainbow' => array(
-      'name' => 'Over the Rainbow',
+      'fontname' => 'Over the Rainbow',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012289',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'overlock' => array(
-      'name' => 'Overlock',
+      'fontname' => 'Overlock',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001228e',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001228d',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001228c',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001228a',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/000000000000000000012290',
-        ),
-        'i9' => array(
-          'name' => 'Black Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001228b',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
+        'n9' => 'Black',
+        'i9' => 'Black Italic',
       ),
     ),
     'overlock-sc' => array(
-      'name' => 'Overlock SC',
+      'fontname' => 'Overlock SC',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001228f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ovo' => array(
-      'name' => 'Ovo',
+      'fontname' => 'Ovo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012291',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'pt-mono' => array(
-      'name' => 'PT Mono',
+      'fontname' => 'PT Mono',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d6',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'pt-sans' => array(
-      'name' => 'PT Sans',
+      'fontname' => 'PT Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f9',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f6',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124fa',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f7',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'pt-sans-caption' => array(
-      'name' => 'PT Sans Caption',
+      'fontname' => 'PT Sans Caption',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f5',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f8',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'pt-sans-narrow' => array(
-      'name' => 'PT Sans Narrow',
+      'fontname' => 'PT Sans Narrow',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f3',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124f4',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'pt-serif' => array(
-      'name' => 'PT Serif',
+      'fontname' => 'PT Serif',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012500',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124fe',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ff',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124fd',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'pt-serif-caption' => array(
-      'name' => 'PT Serif Caption',
+      'fontname' => 'PT Serif Caption',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124fc',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124fb',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'pacifico' => array(
-      'name' => 'Pacifico',
+      'fontname' => 'Pacifico',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012292',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'parisienne' => array(
-      'name' => 'Parisienne',
+      'fontname' => 'Parisienne',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012293',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'passero-one' => array(
-      'name' => 'Passero One',
+      'fontname' => 'Passero One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012294',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'passion-one' => array(
-      'name' => 'Passion One',
+      'fontname' => 'Passion One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012297',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012296',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/000000000000000000012295',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
+        'n9' => 'Black',
       ),
     ),
     'patrick-hand' => array(
-      'name' => 'Patrick Hand',
+      'fontname' => 'Patrick Hand',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125f2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'patua-one' => array(
-      'name' => 'Patua One',
+      'fontname' => 'Patua One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012299',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'paytone-one' => array(
-      'name' => 'Paytone One',
+      'fontname' => 'Paytone One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001229a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'permanent-marker' => array(
-      'name' => 'Permanent Marker',
+      'fontname' => 'Permanent Marker',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001229b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'petrona' => array(
-      'name' => 'Petrona',
+      'fontname' => 'Petrona',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001229c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'philosopher' => array(
-      'name' => 'Philosopher',
+      'fontname' => 'Philosopher',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a0',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001229d',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001229e',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001229f',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'piedra' => array(
-      'name' => 'Piedra',
+      'fontname' => 'Piedra',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a1',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'pinyon-script' => array(
-      'name' => 'Pinyon Script',
+      'fontname' => 'Pinyon Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'plaster' => array(
-      'name' => 'Plaster',
+      'fontname' => 'Plaster',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122a3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'play' => array(
-      'name' => 'Play',
+      'fontname' => 'Play',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122c6',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122c5',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'playball' => array(
-      'name' => 'Playball',
+      'fontname' => 'Playball',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122c7',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'playfair-display' => array(
-      'name' => 'Playfair Display',
+      'fontname' => 'Playfair Display',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012adf',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012ae0',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'podkova' => array(
-      'name' => 'Podkova',
+      'fontname' => 'Podkova',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ca',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122cb',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'poiret-one' => array(
-      'name' => 'Poiret One',
+      'fontname' => 'Poiret One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122cc',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'poller-one' => array(
-      'name' => 'Poller One',
+      'fontname' => 'Poller One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122cd',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'poly' => array(
-      'name' => 'Poly',
+      'fontname' => 'Poly',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122cf',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122ce',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'pompiere' => array(
-      'name' => 'Pompiere',
+      'fontname' => 'Pompiere',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'pontano-sans' => array(
-      'name' => 'Pontano Sans',
+      'fontname' => 'Pontano Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012207',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'port-lligat-sans' => array(
-      'name' => 'Port Lligat Sans',
+      'fontname' => 'Port Lligat Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d1',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'port-lligat-slab' => array(
-      'name' => 'Port Lligat Slab',
+      'fontname' => 'Port Lligat Slab',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'prata' => array(
-      'name' => 'Prata',
+      'fontname' => 'Prata',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'princess-sofia' => array(
-      'name' => 'Princess Sofia',
+      'fontname' => 'Princess Sofia',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'prosto-one' => array(
-      'name' => 'Prosto One',
+      'fontname' => 'Prosto One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122d7',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'puritan' => array(
-      'name' => 'Puritan',
+      'fontname' => 'Puritan',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f7',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f8',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f6',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122f5',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'quantico' => array(
-      'name' => 'Quantico',
+      'fontname' => 'Quantico',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122fd',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122fb',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122fa',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000122fc',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'quattrocento' => array(
-      'name' => 'Quattrocento',
+      'fontname' => 'Quattrocento',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125ae',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'quattrocento-sans' => array(
-      'name' => 'Quattrocento Sans',
+      'fontname' => 'Quattrocento Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012300',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012304',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012303',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012302',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'questrial' => array(
-      'name' => 'Questrial',
+      'fontname' => 'Questrial',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012305',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'quicksand' => array(
-      'name' => 'Quicksand',
+      'fontname' => 'Quicksand',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000012307',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001230b',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001230a',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012306',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012309',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012308',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'qwigley' => array(
-      'name' => 'Qwigley',
+      'fontname' => 'Qwigley',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001230c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'radley' => array(
-      'name' => 'Radley',
+      'fontname' => 'Radley',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001230d',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001230e',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'raleway' => array(
-      'name' => 'Raleway',
+      'fontname' => 'Raleway',
       'variants' => array(
-        'n1' => array(
-          'name' => 'Thin',
-          'license' => 'http://typekit.com/eulas/00000000000000000001328e',
-        ),
+        'n1' => 'Thin',
       ),
     ),
     'rammetto-one' => array(
-      'name' => 'Rammetto One',
+      'fontname' => 'Rammetto One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012314',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'rancho' => array(
-      'name' => 'Rancho',
+      'fontname' => 'Rancho',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012315',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'rationale' => array(
-      'name' => 'Rationale',
+      'fontname' => 'Rationale',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012316',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'redressed' => array(
-      'name' => 'Redressed',
+      'fontname' => 'Redressed',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012317',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'reenie-beanie' => array(
-      'name' => 'Reenie Beanie',
+      'fontname' => 'Reenie Beanie',
       'variants' => array(
-        'n5' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000e039',
-        ),
+        'n5' => 'Regular',
       ),
     ),
     'revalia' => array(
-      'name' => 'Revalia',
+      'fontname' => 'Revalia',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ribeye' => array(
-      'name' => 'Ribeye',
+      'fontname' => 'Ribeye',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012319',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ribeye-marrow' => array(
-      'name' => 'Ribeye Marrow',
+      'fontname' => 'Ribeye Marrow',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001231a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'righteous' => array(
-      'name' => 'Righteous',
+      'fontname' => 'Righteous',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001231b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'rochester' => array(
-      'name' => 'Rochester',
+      'fontname' => 'Rochester',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001231c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'rock-salt' => array(
-      'name' => 'Rock Salt',
+      'fontname' => 'Rock Salt',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001231d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ropa-sans' => array(
-      'name' => 'Ropa Sans',
+      'fontname' => 'Ropa Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012322',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012321',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'rosario' => array(
-      'name' => 'Rosario',
+      'fontname' => 'Rosario',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012326',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012325',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012323',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000012324',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'rouge-script' => array(
-      'name' => 'Rouge Script',
+      'fontname' => 'Rouge Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012327',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ruda' => array(
-      'name' => 'Ruda',
+      'fontname' => 'Ruda',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001232a',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000012329',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/000000000000000000012328',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
+        'n9' => 'Black',
       ),
     ),
     'ruge-boogie' => array(
-      'name' => 'Ruge Boogie',
+      'fontname' => 'Ruge Boogie',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001232b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ruluko' => array(
-      'name' => 'Ruluko',
+      'fontname' => 'Ruluko',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001232c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ruslan-display' => array(
-      'name' => 'Ruslan Display',
+      'fontname' => 'Ruslan Display',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001232d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ruthie' => array(
-      'name' => 'Ruthie',
+      'fontname' => 'Ruthie',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001232e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sail' => array(
-      'name' => 'Sail',
+      'fontname' => 'Sail',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001232f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'salsa' => array(
-      'name' => 'Salsa',
+      'fontname' => 'Salsa',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012330',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sancreek' => array(
-      'name' => 'Sancreek',
+      'fontname' => 'Sancreek',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012378',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sansita-one' => array(
-      'name' => 'Sansita One',
+      'fontname' => 'Sansita One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012379',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sanvito-pro-display' => array(
-      'name' => 'Sanvito Pro Display',
+      'fontname' => 'Sanvito Pro Display',
       'variants' => array(
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131c5',
-        ),
+        'n7' => 'Bold',
       ),
     ),
     'sarina' => array(
-      'name' => 'Sarina',
+      'fontname' => 'Sarina',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001237a',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'satisfy' => array(
-      'name' => 'Satisfy',
+      'fontname' => 'Satisfy',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001237b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'schoolbell' => array(
-      'name' => 'Schoolbell',
+      'fontname' => 'Schoolbell',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001237c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'seaweed-script' => array(
-      'name' => 'Seaweed Script',
+      'fontname' => 'Seaweed Script',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001237d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sevillana' => array(
-      'name' => 'Sevillana',
+      'fontname' => 'Sevillana',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001237e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'shadows-into-light' => array(
-      'name' => 'Shadows Into Light',
+      'fontname' => 'Shadows Into Light',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001237f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'shadows-into-light-two' => array(
-      'name' => 'Shadows Into Light Two',
+      'fontname' => 'Shadows Into Light Two',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012380',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'shanti' => array(
-      'name' => 'Shanti',
+      'fontname' => 'Shanti',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012381',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'share-regular' => array(
-      'name' => 'Share Regular',
+      'fontname' => 'Share Regular',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000010af6',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000010afd',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000010afe',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000010aff',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'shojumaru' => array(
-      'name' => 'Shojumaru',
+      'fontname' => 'Shojumaru',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012385',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'short-stack' => array(
-      'name' => 'Short Stack',
+      'fontname' => 'Short Stack',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012387',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'shuriken-std' => array(
-      'name' => 'Shuriken Std',
+      'fontname' => 'Shuriken Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Boy',
-          'license' => 'http://typekit.com/eulas/0000000000000000000131c6',
-        ),
+        'n4' => 'Boy',
       ),
     ),
     'sigmar-one' => array(
-      'name' => 'Sigmar One',
+      'fontname' => 'Sigmar One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012388',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'simonetta' => array(
-      'name' => 'Simonetta',
+      'fontname' => 'Simonetta',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001259f',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000125a0',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
       ),
     ),
     'sirin-stencil' => array(
-      'name' => 'Sirin Stencil',
+      'fontname' => 'Sirin Stencil',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001239b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'six-caps' => array(
-      'name' => 'Six Caps',
+      'fontname' => 'Six Caps',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001239c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'slackey' => array(
-      'name' => 'Slackey',
+      'fontname' => 'Slackey',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001239d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'smokum' => array(
-      'name' => 'Smokum',
+      'fontname' => 'Smokum',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001239e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'smythe' => array(
-      'name' => 'Smythe',
+      'fontname' => 'Smythe',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001239f',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sniglet' => array(
-      'name' => 'Sniglet',
+      'fontname' => 'Sniglet',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123c8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'snippet' => array(
-      'name' => 'Snippet',
+      'fontname' => 'Snippet',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sofia' => array(
-      'name' => 'Sofia',
+      'fontname' => 'Sofia',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a1',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sonsie-one' => array(
-      'name' => 'Sonsie One',
+      'fontname' => 'Sonsie One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sorts-mill-goudy' => array(
-      'name' => 'Sorts Mill Goudy',
+      'fontname' => 'Sorts Mill Goudy',
       'variants' => array(
-        'n5' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d755',
-        ),
-        'i5' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d756',
-        ),
+        'n5' => 'Regular',
+        'i5' => 'Italic',
       ),
     ),
     'source-code-pro' => array(
-      'name' => 'Source Code Pro',
+      'fontname' => 'Source Code Pro',
       'variants' => array(
-        'n2' => array(
-          'name' => 'Extra Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000013295',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000013296',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000013297',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/000000000000000000013294',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/000000000000000000013298',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/000000000000000000013299',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/00000000000000000001329a',
-        ),
+        'n2' => 'Extra Light',
+        'n3' => 'Light',
+        'n4' => 'Regular',
+        'n6' => 'Semibold',
+        'n7' => 'Bold',
+        'n9' => 'Black',
       ),
     ),
     'source-sans-pro' => array(
-      'name' => 'Source Sans Pro',
+      'fontname' => 'Source Sans Pro',
       'variants' => array(
-        'n2' => array(
-          'name' => 'Extra Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000013180',
-        ),
-        'i2' => array(
-          'name' => 'Extra Light Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000013181',
-        ),
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/000000000000000000013183',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000013184',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000013185',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000013182',
-        ),
-        'n6' => array(
-          'name' => 'Semibold',
-          'license' => 'http://typekit.com/eulas/000000000000000000013186',
-        ),
-        'i6' => array(
-          'name' => 'Semibold Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000013187',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001317e',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001317f',
-        ),
-        'n9' => array(
-          'name' => 'Black',
-          'license' => 'http://typekit.com/eulas/00000000000000000001317c',
-        ),
-        'i9' => array(
-          'name' => 'Black Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000001317d',
-        ),
+        'n2' => 'Extra Light',
+        'i2' => 'Extra Light Italic',
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n6' => 'Semibold',
+        'i6' => 'Semibold Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
+        'n9' => 'Black',
+        'i9' => 'Black Italic',
       ),
     ),
     'special-elite' => array(
-      'name' => 'Special Elite',
+      'fontname' => 'Special Elite',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'spicy-rice' => array(
-      'name' => 'Spicy Rice',
+      'fontname' => 'Spicy Rice',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a4',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'spinnaker' => array(
-      'name' => 'Spinnaker',
+      'fontname' => 'Spinnaker',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a6',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'spirax' => array(
-      'name' => 'Spirax',
+      'fontname' => 'Spirax',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a7',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'squada-one' => array(
-      'name' => 'Squada One',
+      'fontname' => 'Squada One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'stardos-stencil' => array(
-      'name' => 'Stardos Stencil',
+      'fontname' => 'Stardos Stencil',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123a9',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123aa',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'stencil-std' => array(
-      'name' => 'Stencil Std',
+      'fontname' => 'Stencil Std',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012e79',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'stint-ultra-condensed' => array(
-      'name' => 'Stint Ultra Condensed',
+      'fontname' => 'Stint Ultra Condensed',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ab',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'stint-ultra-expanded' => array(
-      'name' => 'Stint Ultra Expanded',
+      'fontname' => 'Stint Ultra Expanded',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ac',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'stoke' => array(
-      'name' => 'Stoke',
+      'fontname' => 'Stoke',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ad',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'strong' => array(
-      'name' => 'Strong',
+      'fontname' => 'Strong',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ae',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'strumpf-std' => array(
-      'name' => 'Strumpf Std',
+      'fontname' => 'Strumpf Std',
       'variants' => array(
-        'n7' => array(
-          'name' => 'Contour',
-          'license' => 'http://typekit.com/eulas/00000000000000000001250e',
-        ),
+        'n7' => 'Contour',
       ),
     ),
     'sue-ellen-francisco' => array(
-      'name' => 'Sue Ellen Francisco',
+      'fontname' => 'Sue Ellen Francisco',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123af',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'sunshiney' => array(
-      'name' => 'Sunshiney',
+      'fontname' => 'Sunshiney',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'supermercado-one' => array(
-      'name' => 'Supermercado One',
+      'fontname' => 'Supermercado One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/000000000000000000012aec',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'swanky-and-moo-moo' => array(
-      'name' => 'Swanky and Moo Moo',
+      'fontname' => 'Swanky and Moo Moo',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'syncopate' => array(
-      'name' => 'Syncopate',
+      'fontname' => 'Syncopate',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b4',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123b5',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'tangerine' => array(
-      'name' => 'Tangerine',
+      'fontname' => 'Tangerine',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001292e',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000001292f',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'telex' => array(
-      'name' => 'Telex',
+      'fontname' => 'Telex',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123d0',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'tenor-sans' => array(
-      'name' => 'Tenor Sans',
+      'fontname' => 'Tenor Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123d1',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'the-girl-next-door' => array(
-      'name' => 'The Girl Next Door',
+      'fontname' => 'The Girl Next Door',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001251b',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'tienne' => array(
-      'name' => 'Tienne',
+      'fontname' => 'Tienne',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123dd',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123da',
-        ),
-        'n9' => array(
-          'name' => 'Heavy',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123dc',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
+        'n9' => 'Heavy',
       ),
     ),
     'tinos' => array(
-      'name' => 'Tinos',
+      'fontname' => 'Tinos',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123df',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123de',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e1',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e0',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'titan-one' => array(
-      'name' => 'Titan One',
+      'fontname' => 'Titan One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e2',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'trade-winds' => array(
-      'name' => 'Trade Winds',
+      'fontname' => 'Trade Winds',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e3',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'trochut' => array(
-      'name' => 'Trochut',
+      'fontname' => 'Trochut',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e6',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e4',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e5',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
       ),
     ),
     'trykker' => array(
-      'name' => 'Trykker',
+      'fontname' => 'Trykker',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e7',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'tulpen-one' => array(
-      'name' => 'Tulpen One',
+      'fontname' => 'Tulpen One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ubuntu' => array(
-      'name' => 'Ubuntu',
+      'fontname' => 'Ubuntu',
       'variants' => array(
-        'n3' => array(
-          'name' => 'Light',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ec',
-        ),
-        'i3' => array(
-          'name' => 'Light Italic',
-          'license' => 'http://typekit.com/eulas/000000000000000000011c22',
-        ),
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f0',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123eb',
-        ),
-        'n5' => array(
-          'name' => 'Medium',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ed',
-        ),
-        'i5' => array(
-          'name' => 'Medium Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ee',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123e9',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ea',
-        ),
+        'n3' => 'Light',
+        'i3' => 'Light Italic',
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n5' => 'Medium',
+        'i5' => 'Medium Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'ubuntu-condensed' => array(
-      'name' => 'Ubuntu Condensed',
+      'fontname' => 'Ubuntu Condensed',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ef',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'ubuntu-mono' => array(
-      'name' => 'Ubuntu Mono',
+      'fontname' => 'Ubuntu Mono',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f4',
-        ),
-        'i4' => array(
-          'name' => 'Regular Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f1',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f2',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f3',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Regular Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'ultra' => array(
-      'name' => 'Ultra',
+      'fontname' => 'Ultra',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f5',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'uncial-antiqua' => array(
-      'name' => 'Uncial Antiqua',
+      'fontname' => 'Uncial Antiqua',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f6',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'unifrakturcook' => array(
-      'name' => 'UnifrakturCook',
+      'fontname' => 'UnifrakturCook',
       'variants' => array(
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123f8',
-        ),
+        'n7' => 'Bold',
       ),
     ),
     'unifrakturmaguntia' => array(
-      'name' => 'UnifrakturMaguntia',
+      'fontname' => 'UnifrakturMaguntia',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Book',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123fc',
-        ),
+        'n4' => 'Book',
       ),
     ),
     'unkempt' => array(
-      'name' => 'Unkempt',
+      'fontname' => 'Unkempt',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123fb',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123fa',
-        ),
+        'n4' => 'Regular',
+        'n7' => 'Bold',
       ),
     ),
     'unlock' => array(
-      'name' => 'Unlock',
+      'fontname' => 'Unlock',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000123ff',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'unna' => array(
-      'name' => 'Unna',
+      'fontname' => 'Unna',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001251c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'vt323' => array(
-      'name' => 'VT323',
+      'fontname' => 'VT323',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c6',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'varela' => array(
-      'name' => 'Varela',
+      'fontname' => 'Varela',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001251d',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'varela-round' => array(
-      'name' => 'Varela Round',
+      'fontname' => 'Varela Round',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001251e',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'vast-shadow' => array(
-      'name' => 'Vast Shadow',
+      'fontname' => 'Vast Shadow',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000001256c',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'vera-sans' => array(
-      'name' => 'Vera Sans',
+      'fontname' => 'Vera Sans',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d30d',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d30c',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d30b',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d30a',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'vibur' => array(
-      'name' => 'Vibur',
+      'fontname' => 'Vibur',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124b9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'vidaloka' => array(
-      'name' => 'Vidaloka',
+      'fontname' => 'Vidaloka',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ba',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'viga' => array(
-      'name' => 'Viga',
+      'fontname' => 'Viga',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124bb',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'voces' => array(
-      'name' => 'Voces',
+      'fontname' => 'Voces',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124bc',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'volkhov' => array(
-      'name' => 'Volkhov',
+      'fontname' => 'Volkhov',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c0',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124bd',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124be',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124bf',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'vollkorn' => array(
-      'name' => 'Vollkorn',
+      'fontname' => 'Vollkorn',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/00000000000000000000d30e',
-        ),
-        'i4' => array(
-          'name' => 'Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c3',
-        ),
-        'n7' => array(
-          'name' => 'Bold',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c1',
-        ),
-        'i7' => array(
-          'name' => 'Bold Italic',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c2',
-        ),
+        'n4' => 'Regular',
+        'i4' => 'Italic',
+        'n7' => 'Bold',
+        'i7' => 'Bold Italic',
       ),
     ),
     'voltaire' => array(
-      'name' => 'Voltaire',
+      'fontname' => 'Voltaire',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c5',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'waiting-for-the-sunrise' => array(
-      'name' => 'Waiting for the Sunrise',
+      'fontname' => 'Waiting for the Sunrise',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c7',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'wallpoet' => array(
-      'name' => 'Wallpoet',
+      'fontname' => 'Wallpoet',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c8',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'walter-turncoat' => array(
-      'name' => 'Walter Turncoat',
+      'fontname' => 'Walter Turncoat',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124c9',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'wellfleet' => array(
-      'name' => 'Wellfleet',
+      'fontname' => 'Wellfleet',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ca',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'wire-one' => array(
-      'name' => 'Wire One',
+      'fontname' => 'Wire One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124cb',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'yellowtail' => array(
-      'name' => 'Yellowtail',
+      'fontname' => 'Yellowtail',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124cc',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'yeseva-one' => array(
-      'name' => 'Yeseva One',
+      'fontname' => 'Yeseva One',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124cd',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'yesteryear' => array(
-      'name' => 'Yesteryear',
+      'fontname' => 'Yesteryear',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124ce',
-        ),
+        'n4' => 'Regular',
       ),
     ),
     'zeyada' => array(
-      'name' => 'Zeyada',
+      'fontname' => 'Zeyada',
       'variants' => array(
-        'n4' => array(
-          'name' => 'Regular',
-          'license' => 'http://typekit.com/eulas/0000000000000000000124cf',
-        ),
+        'n4' => 'Regular',
       ),
     ),
   );

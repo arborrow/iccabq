@@ -18,7 +18,6 @@ function views_bulk_operations_argument_selector_action_info() {
       'aggregate' => TRUE,
       'configurable' => FALSE,
       'hooks' => array(),
-      'triggers' => array('any'),
     ),
   );
 }

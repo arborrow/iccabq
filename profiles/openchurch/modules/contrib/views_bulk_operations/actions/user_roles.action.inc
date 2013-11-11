@@ -5,7 +5,6 @@ function views_bulk_operations_user_roles_action_info() {
     'type' => 'user',
     'label' => t('Modify user roles'),
     'configurable' => TRUE,
-    'triggers' => array('any'),
   ));
 }
 

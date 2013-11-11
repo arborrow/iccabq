@@ -17,7 +17,7 @@
 
         if (select.find('option[value="' + selector + '"]').length > 0) {
 
-          select.find('option[value="' + selector + '"]').attr('selected', true);
+          select.find('option[value=' + selector + ']').attr('selected', true);
           input.hide();
 
         } // if
@@ -40,8 +40,6 @@
     var selector = select.val();
     var input = select.parent().find('input');
     var fontFamily = select.parent().attr('data-font-family');
-    var fontStyle = select.parent().attr('data-font-style');
-    var fontWeight = select.parent().attr('data-font-weight');
 
     if (selector == '-- other --') {
 
@@ -56,18 +54,11 @@
 
       input.val(selector);
       input.hide();
-      select.parent().find('.font-family').remove();
+      select.parent().find('.font-family').remove();      
 
       if (selector == '<none>') {
-
-        var themeInstructions = 'font-family: ' + fontFamily + ';';
-        if (fontStyle) {
-          themeInstructions += ' font-style: ' + fontStyle + ';';
-        }
-        if (fontWeight) {
-          themeInstructions += ' font-weight: ' + fontWeight + ';';
-        }
-        select.parent().append('<div class="font-family">' + themeInstructions + '</div>');
+      
+        select.parent().append('<div class="font-family">font-family: "' + fontFamily + '";</div>');
 
       } // if
 

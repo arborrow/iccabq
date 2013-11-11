@@ -350,10 +350,8 @@ function simplenews_views_data() {
       'click sortable' => TRUE,
     ),
     'filter' => array(
-      'handler' => 'views_handler_filter_boolean_operator',
-      'label' => t('Activated'),
-      'type' => 'yes-no',
-      'accept null' => TRUE,
+      'handler' => 'views_handler_filter_boolean',
+      'allow empty' => TRUE,
     ),
     'argument' => array(
       'handler' => 'views_handler_argument_numeric',

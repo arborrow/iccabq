@@ -13,12 +13,18 @@
 
 /* Desktop display. */
 @media only screen and (min-width:1200px) {
- 
+  /* Uncomment this style for an easy visual confirmation that your
+   * css file is being included.  It will change the header background to
+   * orange. */
+  /*
+  #header-group-wrapper {
+    background-color: orange !important;
+  }
+  */
 }
 
 /* iPad: landscape. */
 @media only screen and (max-device-width: 1024px) and (orientation:landscape), only screen and (min-width:960px) and (max-width:1199px) and (min-device-width: 1100px) { 
-  
 }
 
 /* iPad: portrait. */
@@ -27,42 +33,27 @@
 
 /* Mobile display. */
 @media only screen and (max-width:460px) {
-
-  /* Mobile dropdown menu */
-  
-  #header-group-inner .block-menu-block {
-    display: block;
-    text-align: center;
-    margin: 15px 0 18px;
-  }
-  
-  body.oc-header-gray-bar #header-group-inner .block-menu-block {
-    margin-bottom: 10px;
-  }
-  
-  #header-group-inner .block-menu-block select {
-    -webkit-border-radius: 5px; 
-    -moz-border-radius: 5px;
-    color:#fff;
-    background:#353036;
-    border:1px solid #E5E5E5;
-    font-size:16px;
-    line-height: 16px;
-    padding: 10px;
-    display: inline-block;
-    width: 95%;
-  }
   
   #header-site-info { margin-top: 5px; }
   
-  #block-superfish-1 { display: none; }
+  #block-superfish-1 ul.sf-menu li { margin-left: 0; margin-right: 1em; }
+  
+  body.oc-header-gray-bar #block-superfish-1, #block-superfish-1 { 
+    margin-top: 10px; clear: both; width: 100%; margin-bottom: 10px; 
+  }
   
   body.oc-header-gray-bar #site-name { width: inherit; }
   
   body.oc-header-gray-bar .header-group, .header-group { height: auto; }
   
-  ul.tabs { white-space: normal; }
+  body.oc-header-gray-bar #block-superfish-1 ul.sf-menu a, 
+  body.oc-header-gray-bar #block-superfish-1 ul.sf-menu a:visited {
+    color: #454344;
+  }
   
+  body.oc-header-classic #block-superfish-1 {
+    margin-bottom: 10px;
+  }
   
   /**
    * OpenChurch Homepage Rotator
@@ -144,13 +135,6 @@
   }
   
   /**
-   * OpenChurch Calendar
-   */
-   .view-openchurch-events-calendar .date-nav-wrapper .date-heading h3 {
-     text-align: left;
-   }
-  
-  /**
    * OpenChurch Blogs
    */
   .openchurch-latest-blogs-list .view-filters {
@@ -189,19 +173,4 @@
    .node-openchurch-video .field-name-field-oc-video .openchurch-video iframe {
      max-width: 100%; height: 100%;
    }
-   
-   
-  /**
-   * OpenChurch Galleries
-   */
-  .openchurch-giving-list .views-field-field-oc-image {
-    position: static;
-    top: inherit;
-    left: inherit;
-    margin: .5em 0;
-  }
-  
-  .openchurch-giving-list .views-row {
-    padding-left: 0;
-  }
 }

@@ -462,7 +462,7 @@ function _fusion_accelerator_save_grid($options) {
   foreach ($displays as $display) {
     
     // Bypass any disabled layouts.
-    if (!isset($options[$display . '_enabled'])) {
+    if (!$options[$display . '_enabled']) {
       continue;
     }
 

@@ -229,7 +229,7 @@ function simplenews_subscriptions_page_form($form, &$form_state, $code = NULL) {
   // Get newsletters for subscription form checkboxes.
   // Newsletters with opt-in/out method 'hidden' will not be listed.
   foreach (simplenews_category_get_visible() as $newsletter) {
-    $options[$newsletter->tid] = check_plain(_simplenews_newsletter_name($newsletter));
+    $options[$newsletter->tid] = check_plain($newsletter->name);
     $default_value[$newsletter->tid] = FALSE;
   }
 
@@ -395,7 +395,7 @@ function simplenews_subscriptions_multi_block_form($form, &$form_state) {
   // Get newsletters for subscription form checkboxes.
   // Newsletters with opt-in/out method 'hidden' will not be listed.
   foreach (simplenews_category_get_visible() as $newsletter) {
-    $options[$newsletter->tid] = check_plain(_simplenews_newsletter_name($newsletter));
+    $options[$newsletter->tid] = check_plain($newsletter->name);
     $default_value[$newsletter->tid] = FALSE;
   }
 
@@ -512,15 +512,8 @@ function simplenews_confirm_subscription() {
       elseif ($op == 'add') {
         return drupal_get_form('simplenews_confirm_add_form', $subscriber->mail, $category);
       }
-      elseif ($op == 'combined') {
-        // Redirect and display message if no changes are available.
-        if (empty($subscriber->changes)) {
-          drupal_set_message(t('All changes to your subscriptions where already applied. No changes made.'));
-          drupal_goto(variable_get('site_frontpage', 'node'));
-        }
-        else {
-          return drupal_get_form('simplenews_confirm_multi_form', $subscriber);
-        }
+      elseif ($op == 'combined' && !empty($subscriber->changes)) {
+        return drupal_get_form('simplenews_confirm_multi_form', $subscriber);
       }
     }
     else {
@@ -542,29 +535,22 @@ function simplenews_confirm_subscription() {
         drupal_set_message(t('%user was added to the %newsletter mailing list.', array('%user' => $subscriber->mail, '%newsletter' => _simplenews_newsletter_name($category))));
         drupal_goto(variable_get('site_frontpage', 'node'));
       }
-      elseif ($op == 'combined') {
-        // Redirect and display message if no changes are available.
-        if (empty($subscriber->changes)) {
-          drupal_set_message(t('All changes to your subscriptions where already applied. No changes made.'));
-          drupal_goto(variable_get('site_frontpage', 'node'));
-        }
-        else {
-          foreach ($subscriber->changes as $tid => $action) {
-            if ($action == 'subscribe') {
-              simplenews_subscribe_user($subscriber->mail, $tid, FALSE, 'website');
-            }
-            elseif ($action == 'unsubscribe') {
-              simplenews_unsubscribe_user($subscriber->mail, $tid, FALSE, 'website');
-            }
+      elseif ($op == 'combined' && !empty($subscriber->changes)) {
+        foreach ($subscriber->changes as $tid => $action) {
+          if ($action == 'subscribe') {
+            simplenews_subscribe_user($subscriber->mail, $tid, FALSE, 'website');
           }
-
-          // Clear changes.
-          $subscriber->changes = array();
-          simplenews_subscriber_save($subscriber);
-
-          drupal_set_message(t('Subscription changes confirmed for %user.', array('%user' => $subscriber->mail)));
-          drupal_goto(variable_get('site_frontpage', 'node'));
+          elseif ($action == 'unsubscribe') {
+            simplenews_unsubscribe_user($subscriber->mail, $tid, FALSE, 'website');
+          }
         }
+
+        // Clear changes.
+        $subscriber->changes = array();
+        simplenews_subscriber_save($subscriber);
+
+        drupal_set_message(t('Subscription changes confirmed for %user.', array('%user' => $subscriber->mail)));
+        drupal_goto(variable_get('site_frontpage', 'node'));
       }
     }
   }
@@ -655,7 +641,7 @@ function simplenews_confirm_multi_form_submit($form, &$form_state) {
 /**
  * Mask a mail address.
  *
- * For example, name@example.org will be masked as n*****@e*****.org.
+ * For exampl, name@example.org will be masked as n*****@example.org.
  *
  * @param $mail
  *   A valid mail address to mask.
@@ -664,13 +650,8 @@ function simplenews_confirm_multi_form_submit($form, &$form_state) {
  *   The masked mail address.
  */
 function simplenews_mask_mail($mail) {
-  if (preg_match('/^(.).*@(.).*(\..+)$/', $mail)) {
-    return preg_replace('/^(.).*@(.).*(\..+)$/', '$1*****@$2*****$3', $mail);
-  }
-  else {
-    // Missing top-level domain.
-    return preg_replace('/^(.).*@(.).*$/', '$1*****@$2*****', $mail);
-  }
+  preg_match('/^(.).*@(.*)$/', $mail, $matches);
+  return preg_replace('/^(.).*@(.*)$/', '$1*****@$2', $mail);
 }
 
 /**
@@ -726,7 +707,7 @@ function simplenews_subscriptions_admin_form($form, &$form_state, $snid) {
   // Get newsletters for subscription form checkboxes.
   // Newsletters with opt-in/out method 'hidden' will not be listed.
   foreach (simplenews_category_get_visible() as $newsletter) {
-    $options[$newsletter->tid] = check_plain(_simplenews_newsletter_name($newsletter));
+    $options[$newsletter->tid] = check_plain($newsletter->name);
     $default_value[$newsletter->tid] = FALSE;
   }
 
@@ -760,7 +741,7 @@ function simplenews_subscriptions_admin_form($form, &$form_state, $snid) {
     }
     $form['language'] = array(
       '#type' => 'fieldset',
-      '#title' => t('Preferred language'),
+      '#title' => 'Preferred language',
       '#description' => t('The e-mails will be localized in language chosen. Real users have their preference in account settings.'),
       '#disabled' => FALSE,
     );

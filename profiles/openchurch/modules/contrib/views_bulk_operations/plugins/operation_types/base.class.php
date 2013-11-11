@@ -107,7 +107,8 @@ abstract class ViewsBulkOperationsBaseOperation {
    * to the admin.
    */
   public function adminLabel() {
-    return $this->operationInfo['label'];
+    $label = $this->operationInfo['label'] . ' (' . $this->operationInfo['key'] . ')';
+    return $label;
   }
 
   /**

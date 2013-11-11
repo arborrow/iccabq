@@ -19,7 +19,7 @@
  * Events list page filter fix
  */
 .openchurch-events-list .view-filters {
-  margin-top: -3px; top: 0;
+  margin-top: -35px; top: 0;
 }
 
 body.front .footer { margin-top: 5px; }

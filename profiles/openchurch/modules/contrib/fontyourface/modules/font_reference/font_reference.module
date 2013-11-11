@@ -167,7 +167,6 @@ function font_reference_field_formatter_view($entity_type, $entity, $field, $ins
           $css = $field['settings']['css_selector'] . ' { ' . fontyourface_font_css($font) . ' }';
 
           drupal_add_css($css, array('type' => 'inline'));
-          fontyourface_font_registry($font);          
 
         } // if
 
@@ -190,7 +189,6 @@ function font_reference_field_formatter_view($entity_type, $entity, $field, $ins
           $css = $field['settings']['css_selector'] . ' { ' . fontyourface_font_css($font) . ' }';
 
           drupal_add_css($css, array('type' => 'inline'));
-          fontyourface_font_registry($font);
 
         } // if
 
@@ -229,7 +227,7 @@ function font_reference_options_list($field) {
  */
 function font_reference_allowed_values($field) {
 
-  $fonts = fontyourface_get_fonts('enabled = 1');
+  $fonts = fontyourface_get_fonts();
   
   $options = array();
   

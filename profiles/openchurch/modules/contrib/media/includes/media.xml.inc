@@ -35,8 +35,7 @@ function _media_retrieve_xml($url, $display_errors = FALSE, $refresh = FALSE) {
   libxml_use_internal_errors(TRUE);
 
   // Load the document
-  $result = drupal_http_request($url);
-  $xml = simplexml_load_string($result->data);
+  $xml = simplexml_load_file($url);
 
   if (!$xml) {
     foreach (libxml_get_errors() as $error) {

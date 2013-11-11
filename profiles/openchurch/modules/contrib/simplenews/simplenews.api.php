@@ -102,16 +102,6 @@ function hook_simplenews_subscription_operations() {
 }
 
 /**
- * Act after a newsletter has been spooled.
- *
- * @param $node
- *   The node that has just been spooled.
- */
-function hook_simplenews_spooled($node) {
-
-}
-
-/**
  * Act after a newsletter category has been saved.
  *
  * @ingroup newsletter

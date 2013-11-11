@@ -11,19 +11,9 @@ function openchurch_theme_preprocess_page(&$vars) {
   $block = block_load('superfish',1);
   $block->title = '<none>';
   
-  $renderable_block = _block_get_renderable_array(_block_render_blocks(array($block)));
+  $renderable_block= _block_get_renderable_array(_block_render_blocks(array($block)));
   
-  $vars['page']['main_menu'][] = $renderable_block;
-  
-  /**
-   * Get menu block delta (usually 1 for new installs) 
-   */
-  $block = block_load('menu_block', variable_get('openchurch_menu_block_delta', 1));
-  $block->title = '<none>';
-  
-  $renderable_block = _block_get_renderable_array(_block_render_blocks(array($block)));
-  
-  $vars['page']['main_menu'][] = $renderable_block;
+  $vars['page']['main_menu'] = $renderable_block;
 }
 
 /**
@@ -57,10 +47,10 @@ function openchurch_theme_preprocess_html(&$vars) {
   /**
    * Add ie7 stylesheet 
    */
-  drupal_add_css(path_to_theme().'/css/openchurch-ie7.css', array('browsers' => array('IE' => 'IE 7', '!IE' => FALSE)));
+  drupal_add_css(path_to_theme().'/css/openchurch-ie7.css', array('browsers' => array('IE' => TRUE, '!IE' => FALSE)));
   
   /**
    * Add gt-ie7 stylesheet
    */
-  drupal_add_css(path_to_theme().'/css/openchurch-gt-ie7.css', array('browsers' => array('IE' => 'gt IE 7', '!IE' => FALSE)));
+  drupal_add_css(path_to_theme().'/css/openchurch-gt-ie7.css', array('browsers' => array('IE' => TRUE, '!IE' => FALSE)));
 }

@@ -42,15 +42,6 @@
   left: 12em;
   top: 0;
 }
-.sf-menu.menu,
-.sf-menu.menu ul,
-.sf-menu.menu li {
-  margin: 0;
-}
-.sf-hidden {
-  left: -99999em !important;
-  top: -99999em !important;
-}
 .sf-menu a.sf-with-ul {
   min-width: 1px;
 }
@@ -150,11 +141,6 @@ li.sfHover > a > .sf-sub-indicator {
 .sf-menu.rtl ul li:hover > a > .sf-sub-indicator,
 .sf-menu.rtl ul li.sfHover > a > .sf-sub-indicator {
   background-position: 0 0;
-}
-.sf-menu.rtl .sf-hidden,
-.sf-menu.rtl.sf-hidden {
-  left: auto !important;
-  right: -99999em !important;
 }
 .sf-menu.rtl.sf-horizontal.sf-shadow ul,
 .sf-menu.rtl.sf-vertical.sf-shadow ul,

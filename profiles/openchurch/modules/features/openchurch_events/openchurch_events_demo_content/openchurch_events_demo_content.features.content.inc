@@ -29,7 +29,7 @@ function openchurch_events_demo_content_content_defaults() {
       
       Morbi vestibulum dui ac ipsum pretium commodo. Donec tristique accumsan iaculis. Nam risus est, gravida ut tempor ut, dapibus sed justo. In hac habitasse platea dictumst. Etiam viverra nisi ut eros dictum ut blandit purus pretium. Phasellus faucibus aliquet auctor. Cras posuere lacus bibendum felis adipiscing quis consectetur turpis egestas. Nam mauris enim, rhoncus non gravida eget, lobortis sed ipsum. Ut orci felis, semper sed molestie vitae, sollicitudin id ipsum. Ut in nibh tellus, eu placerat leo.',
           'summary' => '',
-          'format' => 'full_html',
+          'format' => 'filtered_html',
           'safe_value' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis dictum ligula ac dapibus. Nulla dictum varius quam, id rutrum lorem malesuada a. Morbi et velit urna.</p>
   <p>    Morbi vestibulum dui ac ipsum pretium commodo. Donec tristique accumsan iaculis. Nam risus est, gravida ut tempor ut, dapibus sed justo. In hac habitasse platea dictumst. Etiam viverra nisi ut eros dictum ut blandit purus pretium. Phasellus faucibus aliquet auctor. Cras posuere lacus bibendum felis adipiscing quis consectetur turpis egestas. Nam mauris enim, rhoncus non gravida eget, lobortis sed ipsum. Ut orci felis, semper sed molestie vitae, sollicitudin id ipsum. Ut in nibh tellus, eu placerat leo.</p>
   ',
@@ -49,8 +49,8 @@ function openchurch_events_demo_content_content_defaults() {
     'field_oc_dates' => array(
       'und' => array(
         0 => array(
-          'value' => '2014-12-07 00:30:00',
-          'value2' => '2014-12-07 10:30:00',
+          'value' => '2012-12-07 00:30:00',
+          'value2' => '2012-12-07 10:30:00',
           'timezone' => 'UTC',
           'timezone_db' => 'UTC',
           'date_type' => 'datetime',
@@ -132,7 +132,7 @@ function openchurch_events_demo_content_content_defaults() {
       
       In hac habitasse platea dictumst. Etiam viverra nisi ut eros dictum ut blandit purus pretium. Phasellus faucibus aliquet auctor. Cras posuere lacus bibendum felis adipiscing quis consectetur turpis egestas. Nam mauris enim, rhoncus non gravida eget, lobortis sed ipsum. Ut orci felis, semper sed molestie vitae, sollicitudin id ipsum. Ut in nibh tellus, eu placerat leo.',
           'summary' => '',
-          'format' => 'full_html',
+          'format' => 'filtered_html',
           'safe_value' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis dictum ligula ac dapibus. Nulla dictum varius quam, id rutrum lorem malesuada a. Morbi et velit urna. Morbi vestibulum dui ac ipsum pretium commodo. Donec tristique accumsan iaculis. Nam risus est, gravida ut tempor ut, dapibus sed justo.</p>
   <p>    In hac habitasse platea dictumst. Etiam viverra nisi ut eros dictum ut blandit purus pretium. Phasellus faucibus aliquet auctor. Cras posuere lacus bibendum felis adipiscing quis consectetur turpis egestas. Nam mauris enim, rhoncus non gravida eget, lobortis sed ipsum. Ut orci felis, semper sed molestie vitae, sollicitudin id ipsum. Ut in nibh tellus, eu placerat leo.</p>
   ',
@@ -152,8 +152,8 @@ function openchurch_events_demo_content_content_defaults() {
     'field_oc_dates' => array(
       'und' => array(
         0 => array(
-          'value' => '2014-12-07 05:30:00',
-          'value2' => '2014-12-07 10:30:00',
+          'value' => '2012-12-07 05:30:00',
+          'value2' => '2012-12-07 10:30:00',
           'timezone' => 'UTC',
           'timezone_db' => 'UTC',
           'date_type' => 'datetime',

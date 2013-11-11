@@ -4,37 +4,35 @@ reCAPTCHA for Drupal
 The reCAPTCHA module uses the reCAPTCHA web service to
 improve the CAPTCHA system and protect email addresses. For
 more information on what reCAPTCHA is, please visit:
-    https://www.google.com/recaptcha
+    http://www.google.com/recaptcha
 
 
-DEPENDENCIES
+INSTALLATION
 ------------
 
-* reCAPTCHA depends on the CAPTCHA module.
-  https://drupal.org/project/captcha
-* Some people have found that they also need to use jQuery Update module.
-  https://drupal.org/project/jquery_update
+1. Extract the reCAPTCHA module to your local favourite
+   modules directory (sites/all/modules).
 
 
 CONFIGURATION
 -------------
 
 1. Enable reCAPTCHA and CAPTCHA modules in:
-       admin/modules
+       admin/build/modules
 
 2. You'll now find a reCAPTCHA tab in the CAPTCHA
    administration page available at:
        admin/config/people/captcha/recaptcha
 
 3. Register for a public and private reCAPTCHA key at:
-       https://www.google.com/recaptcha/whyrecaptcha
+       http://www.google.com/recaptcha/whyrecaptcha
 
 4. Input the keys into the reCAPTCHA settings. The rest of
    the settings should be fine as their defaults.
 
 5. Visit the Captcha administration page and set where you
    want the reCAPTCHA form to be presented:
-       admin/config/people/captcha
+       admin/user/captcha
 
 
 MAILHIDE INPUT FORMAT
@@ -46,17 +44,17 @@ use and is only there if you want it. The following is how
 you use that input filter:
 
 1. Enable the reCAPTCHA Mailhide module:
-       admin/modules
+       admin/build/modules
 
-2. Head over to your text format settings:
-       admin/config/content/formats
+2. Head over to your input format settings:
+       admin/settings/filters
 
 3. Edit your default input format and add the reCAPTCHA
    Mailhide filter.
 
 4. Click on the Configure tab and put in a public and
    private Mailhide key obtained from:
-       https://www.google.com/recaptcha/mailhide/apikey
+       http://www.google.com/recaptcha/mailhide/apikey
 
 5. Use the Rearrange tab to rearrange the weight of the
    filter depending on what filters already exist.  Make
@@ -64,7 +62,7 @@ you use that input filter:
 
 Note: You will require the installation of the mcrypt
       PHP module in your web server for Mailhide to work:
-         http://php.net/manual/en/ref.mcrypt.php
+         http://uk2.php.net/manual/en/ref.mcrypt.php
 
 
 MULTI-DOMAIN SUPPORT
@@ -97,7 +95,13 @@ If you don't implement this function, it is still quite
 easily customizable through manipulating the CSS.
 
 For more information on this, visit:
-https://developers.google.com/recaptcha/docs/customization
+http://code.google.com/apis/recaptcha/docs/customization.html
+
+
+CHANGELOG
+---------
+
+http://drupal.org/project/cvs/147903?branch=DRUPAL-7--1
 
 
 THANK YOU
@@ -105,4 +109,4 @@ THANK YOU
 
  * Thank you goes to the reCAPTCHA team for all their
    help, support and their amazing Captcha solution
-       https://www.google.com/recaptcha
+       http://www.google.com/recaptcha

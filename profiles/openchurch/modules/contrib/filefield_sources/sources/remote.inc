@@ -22,7 +22,6 @@ function filefield_source_remote_info() {
     'description' => t('Download a file from a remote server.'),
     'process' => 'filefield_source_remote_process',
     'value' => 'filefield_source_remote_value',
-    'file' => 'includes/remote.inc',
   );
   return $source;
 }

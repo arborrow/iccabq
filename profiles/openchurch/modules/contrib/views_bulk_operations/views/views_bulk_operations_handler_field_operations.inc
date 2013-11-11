@@ -16,15 +16,10 @@ class views_bulk_operations_handler_field_operations extends views_handler_field
     if (!empty($options['vbo']) && empty($this->options['vbo_operations'])) {
       $this->options['vbo_operations'] = $options['vbo']['operations'];
       unset($options['vbo']['operations']);
-      $this->options['vbo_settings'] = $options['vbo'] + $this->options['vbo_settings'];
+      $this->options['vbo_settings'] = $options['vbo'];
     }
-    // When updating old Views it is possible for this value to stay empty.
-    if (empty($this->options['vbo_settings']['entity_load_capacity'])) {
-      $this->options['vbo_settings']['entity_load_capacity'] = 10;
-    }
-
+    // Prefix all un-prefixed operations.
     foreach ($this->options['vbo_operations'] as $operation_id => &$operation_options) {
-      // Prefix all un-prefixed operations.
       if (strpos($operation_id, '::') === FALSE) {
         $operations = views_bulk_operations_get_operation_info();
         // Basically, guess.
@@ -39,12 +34,6 @@ class views_bulk_operations_handler_field_operations extends views_handler_field
         // Remove the old operation in any case.
         unset($this->options['vbo_operations'][$operation_id]);
       }
-
-      // Rename the use_queue setting.
-      if (isset($operation_options['use_queue']) && !isset($operation_options['postpone_processing'])) {
-        $operation_options['postpone_processing'] = $operation_options['use_queue'];
-        unset($operation_options['use_queue']);
-      }
     }
   }
 
@@ -56,6 +45,7 @@ class views_bulk_operations_handler_field_operations extends views_handler_field
         'display_type' => array('default' => 0),
         'enable_select_all_pages' => array('default' => TRUE),
         'force_single' => array('default' => FALSE),
+        'display_result' => array('default' => TRUE),
         'entity_load_capacity' => array('default' => 10),
       ),
     );
@@ -96,6 +86,12 @@ class views_bulk_operations_handler_field_operations extends views_handler_field
       '#default_value' => $this->options['vbo_settings']['force_single'],
       '#description' => t('Check this box to restrict selection to a single value.'),
     );
+    $form['vbo_settings']['display_result'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('Display processing result'),
+      '#description' => t('Check this box to let Drupal display a message with the result of processing the selected items.'),
+      '#default_value' => $this->options['vbo_settings']['display_result'],
+    );
     $form['vbo_settings']['entity_load_capacity'] = array(
       '#type' => 'textfield',
       '#title' => t('Number of entities to load at once'),
@@ -115,7 +111,7 @@ class views_bulk_operations_handler_field_operations extends views_handler_field
     $entity_type = $this->get_entity_type();
     $options = $this->options['vbo_operations'];
     foreach (views_bulk_operations_get_applicable_operations($entity_type, $options) as $operation_id => $operation) {
-      $operation_options = !empty($options[$operation_id]) ? $options[$operation_id] : array();
+      $operation_options = $options[$operation_id];
 
       $dom_id = 'edit-options-vbo-operations-' . str_replace(array('_', ':'), array('-', ''), $operation_id);
       $form['vbo_operations'][$operation_id]['selected'] = array(
@@ -124,10 +120,10 @@ class views_bulk_operations_handler_field_operations extends views_handler_field
         '#default_value' => !empty($operation_options['selected']),
       );
       if (!$operation->aggregate()) {
-        $form['vbo_operations'][$operation_id]['postpone_processing'] = array(
+        $form['vbo_operations'][$operation_id]['use_queue'] = array(
           '#type' => 'checkbox',
           '#title' => t('Enqueue the operation instead of executing it directly'),
-          '#default_value' => !empty($operation_options['postpone_processing']),
+          '#default_value' => !empty($operation_options['use_queue']),
           '#dependency' => array(
             $dom_id . '-selected' => array(1),
           ),

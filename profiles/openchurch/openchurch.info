@@ -9,8 +9,7 @@ dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
 dependencies[] = contextual
-;dependencies[] = dashboard
-dependencies[] = dblog
+dependencies[] = dashboard
 dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = file
@@ -73,7 +72,6 @@ dependencies[] = link
 dependencies[] = media
 dependencies[] = media_vimeo
 dependencies[] = media_youtube
-dependencies[] = menu_block
 dependencies[] = menu_breadcrumb
 dependencies[] = metatag
 dependencies[] = nodequeue
@@ -99,7 +97,6 @@ dependencies[] = rules_admin
 dependencies[] = strongarm
 dependencies[] = styles
 dependencies[] = styles_ui
-dependencies[] = tinynav
 dependencies[] = token
 dependencies[] = user_reference
 dependencies[] = views
@@ -144,10 +141,9 @@ dependencies[] = wysiwyg_iframe
 
 files[] = openchurch.profile
 files[] = openchurch.install
-
-; Information added by drupal.org packaging script on 2013-10-28
-version = "7.x-1.11-beta14"
+; Information added by drupal.org packaging script on 2012-11-07
+version = "7.x-1.11-beta5"
 core = "7.x"
 project = "openchurch"
-datestamp = "1383002127"
+datestamp = "1352331176"
 

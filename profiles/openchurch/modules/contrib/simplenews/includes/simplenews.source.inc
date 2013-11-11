@@ -288,7 +288,7 @@ class SimplenewsSpool implements SimplenewsSpoolInterface {
         'status' => SIMPLENEWS_SPOOL_DONE,
         'error' => TRUE
       );
-      return $this->nextSource();
+      return $this->prepareMail();
     }
 
     if ($spool_data->data) {
@@ -296,16 +296,6 @@ class SimplenewsSpool implements SimplenewsSpoolInterface {
     }
     else {
       $subscriber = simplenews_subscriber_load_by_mail($spool_data->mail);
-    }
-
-    if (!$subscriber) {
-      // If loading the subscriber failed, set the processed status done and
-      // proceed with the next mail.
-      $this->processed[$spool_data->msid]->result = array(
-        'status' => SIMPLENEWS_SPOOL_DONE,
-        'error' => TRUE
-      );
-      return $this->nextSource();
     }
 
     $source_class = $this->getSourceImplementation($spool_data);
@@ -539,12 +529,17 @@ class SimplenewsSourceNode implements SimplenewsSourceNodeInterface {
    * Implements SimplenewsSourceInterface::getFromFormatted().
    */
   function getFromFormatted() {
-    // Windows based PHP systems don't accept formatted email addresses.
+    $name = $this->getCategory()->from_name;
+
+    // Windows based PHP systems don't accept formatted emails.
     if (drupal_substr(PHP_OS, 0, 3) == 'WIN') {
       return $this->getFromAddress();
     }
+    else {
+      return '"' . $name . '" <' . $this->getFromAddress() . '>';
+    }
 
-    return '"' . addslashes(mime_header_encode($this->getCategory()->from_name)) . '" <' . $this->getFromAddress() . '>';
+    return $formatted_address;
   }
 
   /**

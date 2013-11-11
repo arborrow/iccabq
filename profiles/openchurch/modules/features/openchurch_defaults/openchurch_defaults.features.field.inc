@@ -10,7 +10,7 @@
 function openchurch_defaults_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-page-body'.
+  // Exported field: 'node-page-body'
   $fields['node-page-body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -33,7 +33,6 @@ function openchurch_defaults_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -83,7 +82,7 @@ function openchurch_defaults_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-webform-body'.
+  // Exported field: 'node-webform-body'
   $fields['node-webform-body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -106,7 +105,6 @@ function openchurch_defaults_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',

@@ -8,17 +8,6 @@
  */
 
 /**
- * Implements hook_form_FORMID_alter().
- */
-function admin_menu_toolbar_form_admin_menu_theme_settings_alter(&$form) {
-  // Add the shortcut links as component on behalf of Shortcut module.
-  $form['plugins']['admin_menu_components']['#options']['shortcut.links'] = t('Shortcuts');
-  // The shortcut bar consists of two elements, so we target their class names
-  // instead of cluttering the markup with additional IDs.
-  $form['plugins']['admin_menu_components']['shortcut.links']['#attributes']['rel'] = '.shortcut-toggle, .shortcut-toolbar';
-}
-
-/**
  * Implementation of hook_page_build().
  */
 function admin_menu_toolbar_page_build(&$page) {
@@ -59,9 +48,6 @@ function admin_menu_toolbar_page_build(&$page) {
  * Implements hook_admin_menu_output_build().
  */
 function admin_menu_toolbar_admin_menu_output_build(&$content) {
-  if (empty($content['#components']['shortcut.links']) && !$content['#complete']) {
-    return;
-  }
   // Add shortcuts toggle.
   $content['shortcut-toggle'] = array(
     '#access' => module_exists('shortcut'),
@@ -96,23 +82,17 @@ function admin_menu_toolbar_admin_menu_output_build(&$content) {
  */
 function admin_menu_toolbar_admin_menu_output_alter(&$content) {
   // Add a class to top-level items for styling.
-  if (isset($content['menu'])) {
-    foreach (element_children($content['menu']) as $link) {
-      $content['menu'][$link]['#attributes']['class'][] = 'admin-menu-toolbar-category';
-    }
+  foreach (element_children($content['menu']) as $link) {
+    $content['menu'][$link]['#attributes']['class'][] = 'admin-menu-toolbar-category';
   }
 
   // Alter icon.
-  if (isset($content['icon'])) {
-    unset($content['icon']['icon']['#theme']);
-    $content['icon']['icon']['#title'] = '<span>' . t('Home') . '</span>';
-    $content['icon']['icon']['#attributes']['class'][] = 'admin-menu-toolbar-category';
-  }
+  unset($content['icon']['icon']['#theme']);
+  $content['icon']['icon']['#title'] = '<span>' . t('Home') . '</span>';
+  $content['icon']['icon']['#attributes']['class'][] = 'admin-menu-toolbar-category';
 
   // Alter user account link.
-  if (isset($content['account'])) {
-    $content['account']['account']['#title'] = t('Hello <strong>@username</strong>', array('@username' => $content['account']['account']['#title']));
-    $content['account']['account']['#options']['html'] = TRUE;
-  }
+  $content['user']['account']['#title'] = t('Hello <strong>@username</strong>', array('@username' => $content['user']['account']['#title']));
+  $content['user']['account']['#options']['html'] = TRUE;
 }
 

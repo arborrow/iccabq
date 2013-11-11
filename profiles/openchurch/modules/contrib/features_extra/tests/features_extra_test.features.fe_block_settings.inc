@@ -10,28 +10,60 @@
 function features_extra_test_default_fe_block_settings() {
   $export = array();
 
-  $export['version'] = '2.0';
+  $export['version'] = '1.0';
 
-  $export['block-features_extra_test_block'] = array(
-    'cache' => -1,
-    'css_class' => 'test-class',
-    'custom' => '0',
-    'machine_name' => 'features_extra_test_block',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => 'content',
-        'status' => '1',
-        'theme' => 'bartik',
-        'weight' => '0',
-      ),
+  // Theme independent visibility settings.
+  $export['visibility'] = array(
+    'block-features_extra_test_block' => array(
+      'machine_name' => 'features_extra_test_block',
+      'module' => 'block',
     ),
-    'title' => 'Features Extra',
-    'visibility' => '0',
   );
 
+  // Exported block settings for Bartik.
+  $theme = array();
+
+  $theme['block-features_extra_test_block'] = array(
+    'module' => 'block',
+    'theme' => 'bartik',
+    'status' => '1',
+    'weight' => '0',
+    'region' => 'content',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => 'Features Extra',
+    'cache' => -1,
+    'machine_name' => 'features_extra_test_block',
+  );
+
+  $export['theme']['bartik'] = $theme;
+
+  // Exported block settings for Seven.
+  $theme = array();
+
+  $theme['block-features_extra_test_block'] = array(
+    'module' => 'block',
+    'theme' => 'seven',
+    'status' => 0,
+    'weight' => '0',
+    'region' => '',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => 'Features Extra',
+    'cache' => -1,
+    'machine_name' => 'features_extra_test_block',
+  );
+
+  $export['theme']['seven'] = $theme;
+
+  $theme_default = variable_get('theme_default', 'bartik');
+  $themes = list_themes();
+  foreach ($export['theme'] as $theme_key => $settings) {
+    if ($theme_key != $theme_default && empty($themes[$theme_key]->status)) {
+      unset($export['theme'][$theme_key]);
+    }
+  }
   return $export;
 }

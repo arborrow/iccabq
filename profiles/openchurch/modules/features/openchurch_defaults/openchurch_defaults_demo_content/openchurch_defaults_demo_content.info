@@ -13,9 +13,9 @@ features[content][] = "oc_page_map_directions"
 features[content][] = "oc_page_serve"
 features[content][] = "oc_page_times"
 features[content][] = "oc_webform"
-; Information added by drupal.org packaging script on 2013-10-28
-version = "7.x-1.11-beta14"
+; Information added by drupal.org packaging script on 2012-11-07
+version = "7.x-1.11-beta5"
 core = "7.x"
 project = "openchurch"
-datestamp = "1383002127"
+datestamp = "1352331176"
 

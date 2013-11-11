@@ -172,7 +172,6 @@ body .block.view-map-directions .inner {
     }
       .openchurch-galleries-list .views-field-nid a {
         padding: .2em .4em; background: #efefef;
-        display: block;
       }
 
 /*************************************
@@ -340,7 +339,7 @@ body .block.view-map-directions .inner {
       border: 2px solid #ccc;
     }
   .openchurch-ministries-list .views-field-nid a {
-    position: absolute; top: 0; right: 0; background: #efefef;
+    position: absolute; top: 0; right: 0; background: #ccc; color: #fff;
     padding: .2em .4em;
   }
 
