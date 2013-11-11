@@ -1,0 +1,256 @@
+
+/* Specific Typography
+-------------------------------------------------------------- */
+#site-name {
+  margin-top: 20px;
+  font-size: 2.4em;
+  padding-bottom: 20px; /* ie7 fix */ 
+  color: #E8D0A9;
+}
+
+.font-size-12 {
+   font-size: 90%;
+}
+
+/* Site info + Header Region
+-------------------------------------------------------------- */
+
+#main-menu-wrapper {
+  padding-top: .5em;
+}
+
+#main {
+  padding-top: 1em;
+}
+
+.main-menu {
+  float: left;
+/*  background: #69929B url("http://iccabq.localhost/sites/default/files/module_title_bg.jpg") top left repeat-x; */
+/*    background: #806641;*/
+    background: saddlebrown;
+}
+
+.main-menu-inner ul a, .main-menu-inner ul ul.menu a {
+    color: white;
+}
+
+.main-menu-inner ul a:visited, .main-menu-inner ul ul.menu a:visited {
+    color: black;
+}
+/* Site info + Header Region
+-------------------------------------------------------------- */
+.header-group {
+  position: relative;
+  z-index: 500;
+}
+
+  #header-site-info { margin-top: 0px; width: 100%; }
+#header-site-info span { margin: 0 0; color: #E8D0A9; }
+
+/* Primary Menu
+/-------------------------------------------------------------- */
+/* Add general styles for primary menu here, such as typography, borders, floats,
+  or spacing above/below */
+
+#block-superfish-1 {
+  overflow: visible;
+}
+
+#block-superfish-1 .inner {
+  position: relative;
+}
+
+/** override accents **/ 
+.main-menu-inner #block-superfish-1 ul.sf-menu li li {
+  border-right: 0;
+  border-left: 0;
+}
+
+/* styles for Superfish primary menu */
+
+#block-superfish-1 .sf-shadow ul {
+  border-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+}
+
+/* Style for container of dropdown, add background or border */
+#block-superfish-1 ul.sf-menu ul {
+/*  background: #ddd url("http://iccabq.localhost/sites/default/files/module_title_bg.jpg"); */
+  background: saddlebrown;
+  margin-top: 7px;
+  border: 1px solid #ccc;
+}
+
+/* Style for individual dropdown menu items, add border-bottom for separators */
+#block-superfish-1 ul.sf-menu li li {
+}
+  #block-superfish-1 ul.sf-menu li li a,
+  #block-superfish-1 ul.sf-menu li li a.active {
+    border-top: 5px solid #999; color: white;
+  }
+  #block-superfish-1 ul.sf-menu li li a:visited {
+    border-top: 5px solid #999; color: black;
+  }
+  #block-superfish-1 ul.sf-menu li li a:hover {
+    border-top: 5px solid #ccc;
+/*    background: #69929B url("http://iccabq.localhost/sites/default/files/module_title_bg.jpg"); */
+/*    background: #806641; */
+    background: saddlebrown;
+	color: #303030;
+  }
+
+/* Page titles
+/-------------------------------------------------------------- */
+/* Page and full node titles */
+.grid-type-960 .page {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+}
+h1.title {
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+h3.title {
+/*    background: #806641; */
+    background: saddlebrown;
+}
+
+/*  Main Area (content + sidebars)
+-------------------------------------------------------------- */
+.main {
+  clear: both;/* opera fix*/
+}
+
+#content-group-inner { margin-left: 10px; margin-right: 10px; }
+
+#content-tabs ul.primary li a:link, #content-tabs ul.primary li a:visited, #content-tabs ul.secondary li a:link, #content-tabs ul.secondary li a:visited {
+background: transparent url("../images/module_title_bg.jpg");
+border: none;
+color: white;
+float: left;
+margin: 0;
+text-decoration: none;
+white-space: nowrap;
+}
+
+#content-tabs ul.primary li a:visited, #content-tabs ul.secondary li a:visited {
+background: transparent url("../images/module_title_bg.jpg");
+border: none;
+color: black;
+float: left;
+margin: 0;
+text-decoration: none;
+white-space: nowrap;
+}
+
+#content-tabs ul.primary li, #content-tabs ul.secondary li {
+background: transparent url("../images/module_title_bg.jpg");
+}
+
+/* Breadcrumbs
+-------------------------------------------------------------- */
+#breadcrumbs {
+  margin-bottom: 1em;
+}
+.breadcrumbs {
+}
+
+.breadcrumbs a:link {
+    color: white;
+}
+
+.breadcrumbs a:visited {
+    color: black;
+}
+
+#breadcrumbs-inner { margin-left: 0; }
+
+
+/* Secondary menu
+-------------------------------------------------------------- */
+
+/**
+ * Hide secondary links title
+ */
+#block-menu-menu-secondary-links { margin-bottom: 0; }
+ 
+#block-menu-menu-secondary-links h2.title { display: none; }
+
+#block-menu-menu-secondary-links ul.menu { text-align: right; font-size: 1.1em; }
+  #block-menu-menu-secondary-links .inner { margin-left: 0; margin-right: 0; padding-bottom: 0; }
+  #block-menu-menu-secondary-links .inner .content { padding-bottom: 0; }
+
+/* Footer - Search
+-------------------------------------------------------------- */
+
+#block-search-form {
+  width: 27em;
+  padding-top: 1em;
+}
+
+#block-search-form input.form-text {
+  width: 23em;
+}
+
+/* Drupal Messages
+/-------------------------------------------------------------- */
+/* General style for all errors/messages (border, padding, etc.) */
+
+#content-messages-inner {
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+/*  Footer Region
+-------------------------------------------------------------- */
+.footer {
+}
+
+  body.not-front .footer { padding-top: 2em; }
+
+.footer .block { margin-bottom: .5em; }
+
+span.gc-cs-link {
+color: white;
+text-decoration: underline;
+cursor: pointer;
+}
+
+#openchurch-ministry-detail .ministry-contacts h2.pane-title, #openchurch-ministry-detail .ministry-galleries h2.pane-title {
+    background: none repeat scroll 0 0 saddlebrown;
+}
+
+#openchurch-ministry-detail .upcoming-events h2.pane-title, #openchurch-ministry-detail .ministry-downloads h2.pane-title {
+    background: none repeat scroll 0 0 saddlebrown;
+}
+
+#openchurch-ministry-detail .ministry-contacts .pane-content {
+    background: none repeat scroll 0 0 #6E7587;
+    padding: 10px;
+}
+
+/* mix-and-match-style.css changes */
+.page {
+      background-image:url("../images/background.jpg"); 
+}
+
+.header-group-wrapper {
+    background-image:url("../images/header.jpg");
+}
+
+ol.upper-roman {
+list-style-type:upper-roman;
+}
+ol.lower-roman {
+list-style-type:lower-roman;
+}
+ol.lower-alpha {
+list-style-type:lower-alpha;
+}
+ol.upper-alpha {
+list-style-type:upper-alpha;
+}
